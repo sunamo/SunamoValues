@@ -3,13 +3,13 @@
     <TargetFramework>net8.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-    <Version>24.1.9.2</Version>
-	  <Description>Values shared across many packages</Description>
+    <Version>24.1.10.1</Version>
+    <Description>Values shared across many packages</Description>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="SunamoColors" Version="24.1.7.1" />
-    <PackageReference Include="SunamoFileExtensions" Version="24.1.7.1" />
-    <PackageReference Include="SunamoTwoWayDictionary" Version="24.1.7.1" />
+    <PackageReference Include="SunamoColors" Version="24.1.10.1" />
+    <PackageReference Include="SunamoFileExtensions" Version="24.1.10.1" />
+    <PackageReference Include="SunamoTwoWayDictionary" Version="24.1.10.1" />
   </ItemGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
     <DefineConstants>$(DefineConstants);ASYNC</DefineConstants>
