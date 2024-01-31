@@ -1,9 +1,9 @@
-namespace SunamoValues._sunamo;
-internal class XlfKeys2
-{
-    internal static string Dashv;
-    internal static string Vdashl;
-    internal static string Color;
-    internal static string Vbar;
-    internal static string Poincareplane;
-}
+//namespace SunamoValues._sunamo;
+//public class XlfKeys2
+//{
+//    public static string Dashv;
+//    public static string Vdashl;
+//    public static string Color;
+//    public static string Vbar;
+//    public static string Poincareplane;
+//}

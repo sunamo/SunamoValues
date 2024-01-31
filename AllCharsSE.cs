@@ -6,6 +6,8 @@ public class AllChars : AllCharsSE
 
 public class AllCharsSE
 {
+    public static List<char> vsZnakyWithoutSpecial;
+
     public const char comma = ',';
     public const char bs = '\\';
     public const char dot = '.';

@@ -8,9 +8,9 @@ public class HtmlStartingTags
     public const string i = "<i>";
     public const string s = "<s>";
 
-    public static string Get(string value)
-    {
-        var v = RH.GetValuesOfConsts(type, value);
-        return v.First().Value;
-    }
+    //public static string Get(string value)
+    //{
+    //    var v = RH.GetValuesOfConsts(type, value);
+    //    return v.First().Value;
+    //}
 }

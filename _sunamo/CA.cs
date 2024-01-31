@@ -1,13 +1,13 @@
 namespace SunamoValues._sunamo;
 
-internal class CA
+public class CA
 {
-    internal static List<string> ToListString(params string[] s)
+    public static List<string> ToListString(params string[] s)
     {
         return s.ToList();
     }
 
-    internal static List<object> ToListObject(params Object[] lb)
+    public static List<object> ToListObject(params Object[] lb)
     {
         return lb.ToList();
     }

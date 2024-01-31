@@ -1,7 +1,7 @@
 namespace SunamoValues._sunamo;
-internal class ThrowEx
+public class ThrowEx
 {
-    internal static void NotImplementedCase(object generalChars)
+    public static void NotImplementedCase(object generalChars)
     {
         throw new Exception("NotImplementedCase: " + generalChars);
     }

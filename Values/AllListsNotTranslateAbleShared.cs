@@ -571,7 +571,7 @@ public partial class AllLists
             htmlEntitiesDict.Add("HilbertSpace", "ℋ");
             htmlEntitiesDict.Add("Hscr", "ℋ");
             htmlEntitiesDict.Add("Hfr", "ℌ");
-            htmlEntitiesDict.Add(XlfKeys2.Poincareplane, "ℌ");
+            htmlEntitiesDict.Add("Poincareplane", "ℌ");
             htmlEntitiesDict.Add("quaternions", "ℍ");
             htmlEntitiesDict.Add("Hopf", "ℍ");
             htmlEntitiesDict.Add("planckh", "ℎ");
@@ -1900,13 +1900,13 @@ public partial class AllLists
             htmlEntitiesDict.Add("forkv", "⫙");
             htmlEntitiesDict.Add("topfork", "⫚");
             htmlEntitiesDict.Add("mlcp", "⫛");
-            htmlEntitiesDict.Add(XlfKeys2.Dashv, "⫤");
+            htmlEntitiesDict.Add("dashv", "⫤");
             htmlEntitiesDict.Add("DoubleLeftTee", "⫤");
-            htmlEntitiesDict.Add(XlfKeys2.Vdashl, "⫦");
-            htmlEntitiesDict.Add(XlfKeys2.Color, "⫧");
+            htmlEntitiesDict.Add("vdashl", "⫦");
+            htmlEntitiesDict.Add("color", "⫧");
             htmlEntitiesDict.Add("vBar", "⫨");
             htmlEntitiesDict.Add("vBarv", "⫩");
-            htmlEntitiesDict.Add(XlfKeys2.Vbar, "⫫");
+            htmlEntitiesDict.Add("vbar", "⫫");
             htmlEntitiesDict.Add("Not", "⫬");
             htmlEntitiesDict.Add("bNot", "⫭");
             htmlEntitiesDict.Add("rnmid", "⫮");
