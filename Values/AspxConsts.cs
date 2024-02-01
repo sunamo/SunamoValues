@@ -8,5 +8,5 @@ public class AspxConsts
     public static readonly string startHtmlComment = "<!--";
     public static readonly string endHtmlComment = "-->";
 
-    public static readonly List<string> all = CA.ToListString(startAspxComment, endAspxComment, startHtmlComment, endHtmlComment, AllStringsSE.gt, AllStringsSE.lt);
+    public static readonly List<string> all = new List<string>([startAspxComment, endAspxComment, startHtmlComment, endHtmlComment, AllStringsSE.gt, AllStringsSE.lt]);
 }

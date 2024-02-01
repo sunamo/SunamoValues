@@ -5,7 +5,7 @@ public partial class DTConstants
     public const long secondsInMinute = 60;
     public const long secondsInHour = secondsInMinute * 60;
     public const long secondsInDay = secondsInHour * 24;
-    public static readonly List<string> daysInWeekENShortcut = CA.ToListString("Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun");
+    public static readonly List<string> daysInWeekENShortcut = new List<string>(["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"]);
     public static readonly List<string> daysInWeekEN = new List<string> { "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday" };
     public static readonly List<string> monthsInYearEN = new List<string> { "January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December" };
     public const int yearStartUnixDate = 1970;
