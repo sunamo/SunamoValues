@@ -12,7 +12,7 @@ public partial class AllLists
     /// When entity have more names, there is just one
     /// In key is letter, in value long name
     /// </summary>
-    public static TwoWayDictionary<string, string> htmlEntitiesFullNames = null;
+    public static Dictionary<string, string> htmlEntitiesFullNames = null;
 
     public static void InitHtmlEntitiesDict()
     {
@@ -2151,17 +2151,17 @@ public partial class AllLists
         }
     }
 
-    public static void InitHtmlEntitiesFullNames()
+    public static void InitHtmlEntitiesFullNames(/*ITwoWayDictionary<string, string> htmlEntitiesFullNames2*/)
     {
         if (htmlEntitiesFullNames == null)
         {
             InitHtmlEntitiesDict();
 
-            htmlEntitiesFullNames = new TwoWayDictionary<string, string>();
+            htmlEntitiesFullNames = /*htmlEntitiesFullNames2;*/ new Dictionary<string, string>();
 
             foreach (var item in htmlEntitiesDict)
             {
-                if (!htmlEntitiesFullNames._d1.ContainsKey(item.Value))
+                if (!htmlEntitiesFullNames.ContainsKey(item.Value))
                 {
                     htmlEntitiesFullNames.Add(item.Value, item.Key);
                 }

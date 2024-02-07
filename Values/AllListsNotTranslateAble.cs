@@ -47,9 +47,9 @@ public partial class AllLists
 
     private static string HtmlEncodeOne(string v)
     {
-        if (htmlEntitiesFullNames._d1.ContainsKey(v))
+        if (htmlEntitiesFullNames.ContainsKey(v))
         {
-            return htmlEntitiesFullNames._d1[v];
+            return htmlEntitiesFullNames[v];
         }
         else
         {

@@ -5,6 +5,4 @@ global using System.Text;
 global using System.Globalization;
 global using System.IO;
 global using System.Diagnostics;
-global using SunamoTwoWayDictionary;
 global using SunamoValues._sunamo;
-global using SunamoColors;
