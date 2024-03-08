@@ -3,7 +3,7 @@ namespace SunamoValues;
 /// <summary>
 ///     Jelikož se jedná jen o tvrdé řetězce a jde mi o to furt jen nepřesouvat kód, už navždy to vše bude v SE.
 /// </summary>
-public partial class Consts
+public class Consts
 {
     // TODO: Distribute to other because public class name is the same as namespace
     public const string AfterCloseNonCompletedSettingsWizard = "Wizard of settings wasn't completed. Do you want close it?";
