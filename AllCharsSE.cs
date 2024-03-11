@@ -1,9 +1,5 @@
 namespace SunamoValues;
 
-public class AllChars : AllCharsSE
-{
-}
-
 public class AllCharsSE
 {
     public static List<char> vsZnakyWithoutSpecial;

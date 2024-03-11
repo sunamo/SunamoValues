@@ -1,10 +1,6 @@
 namespace SunamoValues;
 
-public class AllStrings : AllStringsSE
-{
-}
-
-public class AllStringsSE
+public class AllStrings
 {
     public const string dot = ".";
     public const string comma = ",";
