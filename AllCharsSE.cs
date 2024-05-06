@@ -111,14 +111,14 @@ ndash, slash
 
     public static void ConvertWhiteSpaceCodesToChars()
     {
-        AllStringsSE.whiteSpacesChars = new List<string>(whiteSpacesCodes.Count);
+        AllStrings.whiteSpacesChars = new List<string>(whiteSpacesCodes.Count);
         whiteSpacesChars = new List<char>(whiteSpacesCodes.Count);
         foreach (var item in whiteSpacesCodes)
         {
             var s = char.ConvertFromUtf32(item);
             var ch = Convert.ToChar(s);
             whiteSpacesChars.Add(ch);
-            AllStringsSE.whiteSpacesChars.Add(ch.ToString());
+            AllStrings.whiteSpacesChars.Add(ch.ToString());
 
         }
     }

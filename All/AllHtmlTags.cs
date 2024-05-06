@@ -28,7 +28,7 @@ public class AllHtmlTags
 
                 for (int i = 0; i < list.Count; i++)
                 {
-                    withLeftArrow.Add(AllStringsSE.lt + list[i] + AllStringsSE.space);
+                    withLeftArrow.Add(AllStrings.lt + list[i] + AllStrings.space);
                 }
             }
 

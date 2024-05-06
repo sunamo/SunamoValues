@@ -52,8 +52,8 @@ public class Consts
     public const string Test = "Test_";
     public const string NoEntries = "No entries";
 
-    public const string slashLocalhost = AllStringsSE.slash + sunamoNet;
-    public const string slashScz = AllStringsSE.slash + Cz;
+    public const string slashLocalhost = AllStrings.slash + sunamoNet;
+    public const string slashScz = AllStrings.slash + Cz;
     public const string dotScz = ".sunamo.cz";
     public const string dotSczSlash = ".sunamo.cz/";
     public const string sunamoNetSlash = "sunamo.net/";
@@ -119,7 +119,7 @@ public class Consts
     public const string sunamocz = "sunamocz";
 
     // public static string dots3 = "...";
-    public const string bs = AllStringsSE.bs;
+    public const string bs = AllStrings.bs;
     public const string tab = "\t";
 
     public const string cr = "\t";
@@ -185,3 +185,37 @@ public class Consts
 
     public static string OK = "OK";
 }
+
+namespace SunamoValues.Values;
+
+//using System;
+//using System.Collections.Generic;
+//using System.Linq;
+//using System.Text;
+//using System.Threading.Tasks;
+
+
+//    public static partial class Consts
+//    {
+
+//        /// <summary>
+//        /// Here because is use in Events, AllProjectsSearch etc.
+//        /// </summary>
+//        public const int addRowsToCodeTextBoxDuringScrolling = 0;
+
+//        public const string cs = "cs ";
+//        public const string en = "en ";
+//    public static string HtmlDoctype = "<!DOCTYPE html>";
+//    /// <summary>
+//    /// Must be here due to XmlAgilityDocumentTest
+//    /// </summary>
+//    public static string Include = "Include";
+//    public static string OK = "OK";
+//    public const string na = "n/a";
+//    public const string NA = "N/A";
+//    public const string x = "X";
+//    public const string dirUp = @"..\";
+//    public const string dirUp3 = @"..\..\..\";
+//    public const string dirUp5 = @"..\..\..\..\..\";
+
+//}

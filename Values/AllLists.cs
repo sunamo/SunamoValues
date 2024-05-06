@@ -2169,8 +2169,8 @@ public class AllLists
 
     public static List<char> leftBrackets = CAGConsts.ToList(AllCharsSE.lb, AllCharsSE.lcub, AllCharsSE.lsqb);
     public static List<char> rightBrackets = CAGConsts.ToList(AllCharsSE.rb, AllCharsSE.rcub, AllCharsSE.rsqb);
-    public static List<string> leftBracketsS = CAGConsts.ToList(AllStringsSE.lb, AllStringsSE.lcub, AllStringsSE.lsqb);
-    public static List<string> rightBracketsS = CAGConsts.ToList(AllStringsSE.rb, AllStringsSE.rcub, AllStringsSE.rsqb);
+    public static List<string> leftBracketsS = CAGConsts.ToList(AllStrings.lb, AllStrings.lcub, AllStrings.lsqb);
+    public static List<string> rightBracketsS = CAGConsts.ToList(AllStrings.rb, AllStrings.rcub, AllStrings.rsqb);
 
     public static List<string> featUpper = new List<string>(["Feat.", "Featuring", "Ft."]);
     public static List<string> featLower = new List<string>(["feat.", "featuring", "ft."]);
