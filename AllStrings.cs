@@ -103,7 +103,7 @@ public class AllStrings
 
     public static string doubleSpace32160 = space + space160;
     public static string doubleSpace16032 = space160 + space;
-    public static string space160 = AllCharsSE.space160.ToString();
+    public static string space160 = AllChars.space160.ToString();
     public static string doubleBs = bs + bs;
 
     public static string DoubleSpace32160

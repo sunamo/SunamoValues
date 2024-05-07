@@ -1,8 +1,9 @@
 namespace SunamoValues;
 
-public class AllCharsSE
+public class AllChars
 {
     public static List<char> vsZnakyWithoutSpecial;
+    public static List<char> vsZnaky = null;
 
     public const char comma = ',';
     public const char bs = '\\';
@@ -12,6 +13,29 @@ public class AllCharsSE
     public const char ra = '’';
     public const char st = '\0';
     public const char euro = '€';
+
+    static AllChars()
+    {
+        ConvertWhiteSpaceCodesToChars();
+        notNumber = (char)whiteSpacesCodes[0];
+        generalChars = new List<char>(new[] { notNumber });
+
+        specialCharsAll = new List<char>(specialChars.Count + specialChars2.Count + specialCharsWhite.Count);
+        specialCharsAll.AddRange(specialChars);
+        specialCharsAll.AddRange(specialChars2);
+        specialCharsAll.AddRange(specialCharsWhite);
+
+        vsZnaky = new List<char>(AllChars.lowerChars.Count + AllChars.numericChars.Count + AllChars.specialChars.Count + AllChars.upperChars.Count);
+        vsZnaky.AddRange(AllChars.lowerChars);
+        vsZnaky.AddRange(AllChars.numericChars);
+        vsZnaky.AddRange(AllChars.specialChars);
+        vsZnaky.AddRange(AllChars.upperChars);
+
+        vsZnakyWithoutSpecial = new List<char>(AllChars.lowerChars.Count + AllChars.numericChars.Count + AllChars.upperChars.Count);
+        vsZnakyWithoutSpecial.AddRange(AllChars.lowerChars);
+        vsZnakyWithoutSpecial.AddRange(AllChars.numericChars);
+        vsZnakyWithoutSpecial.AddRange(AllChars.upperChars);
+    }
 
     public static readonly List<int> specialKeyCodes =
     new(new[] { 33, 64, 35, 36, 37, 94, 38, 42, 63, 95, 126 });
@@ -53,7 +77,7 @@ public class AllCharsSE
     public static readonly List<char> specialChars = new(new[]
     { excl, commat, num, dollar, percnt, Hat, amp, ast, quest, lowbar, tilda });
 
-    private static readonly Type type = typeof(AllCharsSE);
+    private static readonly Type type = typeof(AllChars);
 
     // my extension
     public static readonly List<char> generalChars;
@@ -86,17 +110,7 @@ comma, period, colon, apos, rpar, sol, lt, gt, lcub, rcub, lsqb, verbar, semi, p
 ndash, slash
 });
 
-    static AllCharsSE()
-    {
-        ConvertWhiteSpaceCodesToChars();
-        notNumber = (char)whiteSpacesCodes[0];
-        generalChars = new List<char>(new[] { notNumber });
 
-        specialCharsAll = new List<char>(specialChars.Count + specialChars2.Count + specialCharsWhite.Count);
-        specialCharsAll.AddRange(specialChars);
-        specialCharsAll.AddRange(specialChars2);
-        specialCharsAll.AddRange(specialCharsWhite);
-    }
 
     public static Predicate<char> ReturnRightPredicate(char genericChar)
     {

@@ -3,7 +3,7 @@
     <TargetFramework>net8.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-    <Version>24.2.6.3</Version>
+    <Version>24.5.7.2</Version>
     <Description>Values shared across many packages</Description>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
@@ -13,5 +13,6 @@
     <DefineConstants>$(DefineConstants);ASYNC;SunamoValues</DefineConstants>
   </PropertyGroup>
   <ItemGroup>
+    <PackageReference Include="SunamoEnums" Version="24.2.6.2" />
   </ItemGroup>
 </Project>
