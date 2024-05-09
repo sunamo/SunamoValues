@@ -1,7 +1,7 @@
 namespace
 #if SunamoDictionary
 SunamoDictionary
-#else SunamoValuesConstants
+#else
 SunamoValuesConstants
 #endif
 ;

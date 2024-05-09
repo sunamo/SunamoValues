@@ -3,7 +3,7 @@ namespace
 SunamoDevCode
 #elif SunamoEnumsHelper
 SunamoEnumsHelper
-#else SunamoValuesConstants
+#else
 SunamoValuesConstants
 #endif
 ;

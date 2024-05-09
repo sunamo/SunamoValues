@@ -87,7 +87,7 @@ SunamoUriWebServices
 SunamoWinStd
 #elif SunamoXml
 SunamoXml
-#else SunamoValues
+#else
 SunamoValues
 #endif
 ;

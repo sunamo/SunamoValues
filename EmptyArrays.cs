@@ -11,7 +11,7 @@ SunamoFtp
 SunamoLogger
 #elif SunamoUri
 SunamoUri
-#else SunamoValues
+#else
 SunamoValues
 #endif
 ;

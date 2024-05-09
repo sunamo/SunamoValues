@@ -9,7 +9,7 @@ SunamoFileSystem
 SunamoHtml
 #elif SunamoRandom
 SunamoRandom
-#else SunamoValuesConstants
+#else
 SunamoValuesConstants
 #endif
 ;

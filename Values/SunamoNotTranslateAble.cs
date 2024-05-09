@@ -3,7 +3,7 @@ namespace
 SunamoDevCode
 #elif SunamoString
 SunamoString
-#else SunamoValuesValues
+#else
 SunamoValuesValues
 #endif
 ;

@@ -1,7 +1,7 @@
 namespace
 #if SunamoHtml
 SunamoHtml
-#else SunamoValuesConstants
+#else
 SunamoValuesConstants
 #endif
 ;

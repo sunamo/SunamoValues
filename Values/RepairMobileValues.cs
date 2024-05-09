@@ -1,7 +1,7 @@
 namespace
 #if SunamoUriWebServices
 SunamoUriWebServices
-#else SunamoValuesValues
+#else
 SunamoValuesValues
 #endif
 ;

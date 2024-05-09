@@ -3,7 +3,7 @@ using SunamoEnums.Enums;
 namespace
 #if SunamoDevCode
 SunamoDevCode
-#else SunamoValuesAll
+#else
 SunamoValuesAll
 #endif
 ;

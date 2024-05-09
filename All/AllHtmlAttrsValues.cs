@@ -4,7 +4,7 @@ using System.Reflection;
 namespace
 #if SunamoDevCode
 SunamoDevCode
-#else SunamoValuesAll
+#else
 SunamoValuesAll
 #endif
 ;

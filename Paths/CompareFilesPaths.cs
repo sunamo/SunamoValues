@@ -1,7 +1,7 @@
 namespace
 #if SunamoFileIO
 SunamoFileIO
-#else SunamoValuesPaths
+#else
 SunamoValuesPaths
 #endif
 ;

@@ -1,7 +1,7 @@
 namespace
 #if SunamoDevCode
 SunamoDevCode
-#else SunamoValuesConstants
+#else
 SunamoValuesConstants
 #endif
 ;

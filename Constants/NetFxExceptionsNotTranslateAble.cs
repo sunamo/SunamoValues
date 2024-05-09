@@ -1,7 +1,7 @@
 namespace
 #if SunamoFileSystem
 SunamoFileSystem
-#else SunamoValuesConstants
+#else
 SunamoValuesConstants
 #endif
 ;

@@ -1,7 +1,7 @@
 namespace
 #if SunamoGitBashBuilder
 SunamoGitBashBuilder
-#else SunamoValuesPaths
+#else
 SunamoValuesPaths
 #endif
 ;

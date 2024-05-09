@@ -7,7 +7,7 @@ SunamoHtml
 SunamoShared
 #elif SunamoString
 SunamoString
-#else SunamoValuesValues
+#else
 SunamoValuesValues
 #endif
 ;

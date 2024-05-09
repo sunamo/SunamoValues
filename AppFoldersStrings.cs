@@ -3,7 +3,7 @@ namespace
 SunamoDebugging
 #elif SunamoDebugIO
 SunamoDebugIO
-#else SunamoValues
+#else
 SunamoValues
 #endif
 ;

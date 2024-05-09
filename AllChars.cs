@@ -59,7 +59,7 @@ SunamoStringTrim
 SunamoUri
 #elif SunamoXml
 SunamoXml
-#else SunamoValues
+#else
 SunamoValues
 #endif
 ;

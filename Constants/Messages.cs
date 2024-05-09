@@ -5,7 +5,7 @@ SunamoCl
 SunamoLogger
 #elif SunamoTextOutputGenerator
 SunamoTextOutputGenerator
-#else SunamoValuesConstants
+#else
 SunamoValuesConstants
 #endif
 ;
