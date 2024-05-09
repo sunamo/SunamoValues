@@ -1,7 +1,7 @@
 using SunamoValues.Constants;
 using System.Reflection;
 
-namespace SunamoCompare._SunamoComparer;
+namespace SunamoValues.All;
 
 
 

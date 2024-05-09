@@ -1,4 +1,4 @@
-﻿namespace SunamoValues.Values;
+namespace SunamoValues;
 
 //using System;
 //using System.Collections.Generic;

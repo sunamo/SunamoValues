@@ -1,6 +1,6 @@
 using SunamoEnums.Enums;
 
-namespace SunamoCompare._SunamoComparer;
+namespace SunamoValues.All;
 
 
 

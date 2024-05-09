@@ -1,7 +1,7 @@
 using SunamoEnums.Enums;
 using SunamoValues;
 
-namespace SunamoCompare._SunamoComparer;
+namespace SunamoValues.All;
 
 
 
