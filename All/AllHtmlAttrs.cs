@@ -1,6 +1,12 @@
 using SunamoEnums.Enums;
 
-namespace SunamoValues.All;
+namespace
+#if SunamoDevCode
+SunamoDevCode
+#else SunamoValuesAll
+SunamoValuesAll
+#endif
+;
 
 
 

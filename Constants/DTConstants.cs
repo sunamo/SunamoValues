@@ -1,4 +1,18 @@
-﻿namespace SunamoValues.Constants;
+namespace
+#if SunamoConverters
+SunamoConverters
+#elif SunamoDateTime
+SunamoDateTime
+#elif SunamoFileSystem
+SunamoFileSystem
+#elif SunamoHtml
+SunamoHtml
+#elif SunamoRandom
+SunamoRandom
+#else SunamoValuesConstants
+SunamoValuesConstants
+#endif
+;
 
 public class DTConstants
 {

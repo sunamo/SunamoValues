@@ -1,4 +1,14 @@
-namespace SunamoValues.Constants;
+namespace
+#if SunamoCl
+SunamoCl
+#elif SunamoLogger
+SunamoLogger
+#elif SunamoTextOutputGenerator
+SunamoTextOutputGenerator
+#else SunamoValuesConstants
+SunamoValuesConstants
+#endif
+;
 
 /// <summary>
 ///     Usage:

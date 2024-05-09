@@ -1,4 +1,60 @@
-namespace SunamoValues;
+namespace
+#if SunamoCollections
+SunamoCollections
+#elif SunamoCollectionsGeneric
+SunamoCollectionsGeneric
+#elif SunamoCollectionsShared
+SunamoCollectionsShared
+#elif SunamoCSharp
+SunamoCSharp
+#elif SunamoDevCode
+SunamoDevCode
+#elif SunamoDictionary
+SunamoDictionary
+#elif SunamoFileSystem
+SunamoFileSystem
+#elif SunamoFubuCsProjFile
+SunamoFubuCsProjFile
+#elif SunamoGitBashBuilder
+SunamoGitBashBuilder
+#elif SunamoHtml
+SunamoHtml
+#elif SunamoLogger
+SunamoLogger
+#elif SunamoPackageJson
+SunamoPackageJson
+#elif SunamoPlatformUwpInterop
+SunamoPlatformUwpInterop
+#elif SunamoPS
+SunamoPS
+#elif SunamoRandom
+SunamoRandom
+#elif SunamoShared
+SunamoShared
+#elif SunamoString
+SunamoString
+#elif SunamoStringGetString
+SunamoStringGetString
+#elif SunamoStringJoin
+SunamoStringJoin
+#elif SunamoStringReplace
+SunamoStringReplace
+#elif SunamoStringSplit
+SunamoStringSplit
+#elif SunamoTextOutputGenerator
+SunamoTextOutputGenerator
+#elif SunamoUri
+SunamoUri
+#elif SunamoUriWebServices
+SunamoUriWebServices
+#elif SunamoWinStd
+SunamoWinStd
+#elif SunamoXml
+SunamoXml
+#else SunamoValues
+SunamoValues
+#endif
+;
 
 /// <summary>
 ///     Jelikož se jedná jen o tvrdé řetězce a jde mi o to furt jen nepřesouvat kód, už navždy to vše bude v SE.

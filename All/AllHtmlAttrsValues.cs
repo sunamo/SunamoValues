@@ -1,7 +1,13 @@
 using SunamoValues.Constants;
 using System.Reflection;
 
-namespace SunamoValues.All;
+namespace
+#if SunamoDevCode
+SunamoDevCode
+#else SunamoValuesAll
+SunamoValuesAll
+#endif
+;
 
 
 

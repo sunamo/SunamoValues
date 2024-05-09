@@ -1,7 +1,13 @@
 using SunamoEnums.Enums;
 using SunamoValues;
 
-namespace SunamoValues.All;
+namespace
+#if SunamoDevCode
+SunamoDevCode
+#else SunamoValuesAll
+SunamoValuesAll
+#endif
+;
 
 
 

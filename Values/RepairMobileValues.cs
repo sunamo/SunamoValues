@@ -1,4 +1,10 @@
-namespace SunamoValues.Values;
+namespace
+#if SunamoUriWebServices
+SunamoUriWebServices
+#else SunamoValuesValues
+SunamoValuesValues
+#endif
+;
 
 public class RepairMobileValues
 {

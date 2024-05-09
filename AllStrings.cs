@@ -1,4 +1,96 @@
-namespace SunamoValues;
+namespace
+#if SunamoBts
+SunamoBts
+#elif SunamoChar
+SunamoChar
+#elif SunamoCl
+SunamoCl
+#elif SunamoCollections
+SunamoCollections
+#elif SunamoCollectionsGeneric
+SunamoCollectionsGeneric
+#elif SunamoConverters
+SunamoConverters
+#elif SunamoCSharp
+SunamoCSharp
+#elif SunamoCsv
+SunamoCsv
+#elif SunamoDateTime
+SunamoDateTime
+#elif SunamoDebugging
+SunamoDebugging
+#elif SunamoDevCode
+SunamoDevCode
+#elif SunamoDictionary
+SunamoDictionary
+#elif SunamoFileIO
+SunamoFileIO
+#elif SunamoFileSystem
+SunamoFileSystem
+#elif SunamoFluentFtp
+SunamoFluentFtp
+#elif SunamoFtp
+SunamoFtp
+#elif SunamoGitBashBuilder
+SunamoGitBashBuilder
+#elif SunamoGoogleSheets
+SunamoGoogleSheets
+#elif SunamoHtml
+SunamoHtml
+#elif SunamoLogger
+SunamoLogger
+#elif SunamoMail
+SunamoMail
+#elif SunamoParsing
+SunamoParsing
+#elif SunamoPlatformUwpInterop
+SunamoPlatformUwpInterop
+#elif SunamoPS
+SunamoPS
+#elif SunamoRandom
+SunamoRandom
+#elif SunamoReflection
+SunamoReflection
+#elif SunamoRegex
+SunamoRegex
+#elif SunamoSerializer
+SunamoSerializer
+#elif SunamoShared
+SunamoShared
+#elif SunamoString
+SunamoString
+#elif SunamoStringData
+SunamoStringData
+#elif SunamoStringFormat
+SunamoStringFormat
+#elif SunamoStringJoin
+SunamoStringJoin
+#elif SunamoStringReplace
+SunamoStringReplace
+#elif SunamoStringShared
+SunamoStringShared
+#elif SunamoStringSplit
+SunamoStringSplit
+#elif SunamoStringTrim
+SunamoStringTrim
+#elif SunamoText
+SunamoText
+#elif SunamoTextOutputGenerator
+SunamoTextOutputGenerator
+#elif SunamoThisApp
+SunamoThisApp
+#elif SunamoUri
+SunamoUri
+#elif SunamoUriWebServices
+SunamoUriWebServices
+#elif SunamoWinStd
+SunamoWinStd
+#elif SunamoXml
+SunamoXml
+#else SunamoValues
+SunamoValues
+#endif
+;
 
 public class AllStrings
 {

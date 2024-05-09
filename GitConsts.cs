@@ -1,4 +1,10 @@
-namespace SunamoValues;
+namespace
+#if SunamoFubuCsProjFile
+SunamoFubuCsProjFile
+#else SunamoValues
+SunamoValues
+#endif
+;
 
 public class GitConsts
 {

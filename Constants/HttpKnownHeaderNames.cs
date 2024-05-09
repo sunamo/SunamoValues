@@ -1,4 +1,12 @@
-namespace SunamoValues.Constants;
+namespace
+#if SunamoHttp
+SunamoHttp
+#elif SunamoShared
+SunamoShared
+#else SunamoValuesConstants
+SunamoValuesConstants
+#endif
+;
 
 public static class HttpKnownHeaderNames
 {

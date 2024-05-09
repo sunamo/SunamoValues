@@ -1,4 +1,10 @@
-namespace SunamoValues.Values;
+namespace
+#if SunamoUri
+SunamoUri
+#else SunamoValuesValues
+SunamoValuesValues
+#endif
+;
 
 public class UriShortConsts
 {

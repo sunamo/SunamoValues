@@ -1,4 +1,10 @@
-namespace SunamoValues.Constants;
+namespace
+#if SunamoDevCode
+SunamoDevCode
+#else SunamoValuesConstants
+SunamoValuesConstants
+#endif
+;
 
 /// <summary>
 /// Here can be just constants, not methods

@@ -1,4 +1,12 @@
-namespace SunamoValues;
+namespace
+#if SunamoDebugging
+SunamoDebugging
+#elif SunamoDebugIO
+SunamoDebugIO
+#else SunamoValues
+SunamoValues
+#endif
+;
 public class AppFoldersStrings
 {
     #region Not backuped

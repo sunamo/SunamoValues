@@ -1,4 +1,10 @@
-namespace SunamoValues.Constants;
+namespace
+#if SunamoString
+SunamoString
+#else SunamoValuesConstants
+SunamoValuesConstants
+#endif
+;
 
 public class UnicodeWhiteToVisible
 {

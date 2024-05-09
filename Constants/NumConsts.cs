@@ -1,4 +1,20 @@
-namespace SunamoValues.Constants;
+namespace
+#if SunamoCompare
+SunamoCompare
+#elif SunamoFileSystem
+SunamoFileSystem
+#elif SunamoNumbers
+SunamoNumbers
+#elif SunamoShared
+SunamoShared
+#elif SunamoString
+SunamoString
+#elif SunamoStringShared
+SunamoStringShared
+#else SunamoValuesConstants
+SunamoValuesConstants
+#endif
+;
 
 public class NumConsts
 {

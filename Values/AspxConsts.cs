@@ -1,4 +1,10 @@
-namespace SunamoValues.Values;
+namespace
+#if SunamoHtml
+SunamoHtml
+#else SunamoValuesValues
+SunamoValuesValues
+#endif
+;
 
 public class AspxConsts
 {

@@ -1,4 +1,10 @@
-namespace SunamoValues.Constants;
+namespace
+#if SunamoHtml
+SunamoHtml
+#else SunamoValuesConstants
+SunamoValuesConstants
+#endif
+;
 
 /// <summary>
 /// plural - as string

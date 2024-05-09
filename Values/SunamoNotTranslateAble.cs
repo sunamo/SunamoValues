@@ -1,4 +1,12 @@
-namespace SunamoValues.Values;
+namespace
+#if SunamoDevCode
+SunamoDevCode
+#elif SunamoString
+SunamoString
+#else SunamoValuesValues
+SunamoValuesValues
+#endif
+;
 
 public class SunamoNotTranslateAble
 {

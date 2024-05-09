@@ -1,4 +1,10 @@
-namespace SunamoValues.Paths;
+namespace
+#if SunamoGitBashBuilder
+SunamoGitBashBuilder
+#else SunamoValuesPaths
+SunamoValuesPaths
+#endif
+;
 
 public class SourceCodePaths
 {

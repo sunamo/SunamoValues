@@ -1,4 +1,10 @@
-namespace SunamoValues.Constants;
+namespace
+#if SunamoDictionary
+SunamoDictionary
+#else SunamoValuesConstants
+SunamoValuesConstants
+#endif
+;
 
 public class ComparerConsts
 {

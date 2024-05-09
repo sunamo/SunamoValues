@@ -1,4 +1,20 @@
-namespace SunamoValues;
+namespace
+#if SunamoCl
+SunamoCl
+#elif SunamoCollections
+SunamoCollections
+#elif SunamoFileSystem
+SunamoFileSystem
+#elif SunamoFtp
+SunamoFtp
+#elif SunamoLogger
+SunamoLogger
+#elif SunamoUri
+SunamoUri
+#else SunamoValues
+SunamoValues
+#endif
+;
 
 public class EmptyArrays
 {

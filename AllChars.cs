@@ -1,4 +1,68 @@
-namespace SunamoValues;
+namespace
+#if SunamoBts
+SunamoBts
+#elif SunamoCl
+SunamoCl
+#elif SunamoClipboard
+SunamoClipboard
+#elif SunamoCollections
+SunamoCollections
+#elif SunamoCSharp
+SunamoCSharp
+#elif SunamoCsv
+SunamoCsv
+#elif SunamoDateTime
+SunamoDateTime
+#elif SunamoDebugging
+SunamoDebugging
+#elif SunamoDevCode
+SunamoDevCode
+#elif SunamoDictionary
+SunamoDictionary
+#elif SunamoEmbeddedResources
+SunamoEmbeddedResources
+#elif SunamoFileSystem
+SunamoFileSystem
+#elif SunamoFtp
+SunamoFtp
+#elif SunamoGitBashBuilder
+SunamoGitBashBuilder
+#elif SunamoGoogleSheets
+SunamoGoogleSheets
+#elif SunamoHtml
+SunamoHtml
+#elif SunamoHttp
+SunamoHttp
+#elif SunamoLogger
+SunamoLogger
+#elif SunamoPlatformUwpInterop
+SunamoPlatformUwpInterop
+#elif SunamoRandom
+SunamoRandom
+#elif SunamoSerializer
+SunamoSerializer
+#elif SunamoShared
+SunamoShared
+#elif SunamoString
+SunamoString
+#elif SunamoStringData
+SunamoStringData
+#elif SunamoStringFormat
+SunamoStringFormat
+#elif SunamoStringReplace
+SunamoStringReplace
+#elif SunamoStringShared
+SunamoStringShared
+#elif SunamoStringTrim
+SunamoStringTrim
+#elif SunamoUri
+SunamoUri
+#elif SunamoXml
+SunamoXml
+#else SunamoValues
+SunamoValues
+#endif
+;
 
 public class AllChars
 {

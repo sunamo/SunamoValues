@@ -1,4 +1,10 @@
-namespace SunamoValues.Constants;
+namespace
+#if SunamoFileSystem
+SunamoFileSystem
+#else SunamoValuesConstants
+SunamoValuesConstants
+#endif
+;
 
 public class NetFxExceptionsNotTranslateAble
 {

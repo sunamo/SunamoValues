@@ -1,4 +1,10 @@
-namespace SunamoValues.Values;
+namespace
+#if SunamoDateTime
+SunamoDateTime
+#else SunamoValuesValues
+SunamoValuesValues
+#endif
+;
 
 public class CultureInfos
 {

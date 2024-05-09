@@ -1,4 +1,16 @@
-﻿namespace SunamoValues.Values;
+namespace
+#if SunamoDevCode
+SunamoDevCode
+#elif SunamoHtml
+SunamoHtml
+#elif SunamoShared
+SunamoShared
+#elif SunamoString
+SunamoString
+#else SunamoValuesValues
+SunamoValuesValues
+#endif
+;
 
 public class AllLists
 {

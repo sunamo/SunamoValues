@@ -1,4 +1,12 @@
-namespace SunamoValues.Constants;
+namespace
+#if SunamoDevCode
+SunamoDevCode
+#elif SunamoEnumsHelper
+SunamoEnumsHelper
+#else SunamoValuesConstants
+SunamoValuesConstants
+#endif
+;
 
 public class CodeElementsConstants
 {
