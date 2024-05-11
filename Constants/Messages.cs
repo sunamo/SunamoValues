@@ -8,7 +8,7 @@ SunamoLogger
 #elif SunamoTextOutputGenerator
 SunamoTextOutputGenerator
 #else
-SunamoValuesConstants
+SunamoValues
 #endif
 ;
 

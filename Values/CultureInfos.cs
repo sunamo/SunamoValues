@@ -2,7 +2,7 @@ namespace
 #if SunamoDateTime
 SunamoDateTime
 #else
-SunamoValuesValues
+SunamoValues
 #endif
 ;
 

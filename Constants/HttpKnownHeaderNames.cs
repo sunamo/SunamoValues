@@ -4,7 +4,7 @@ SunamoHttp
 #elif SunamoShared
 SunamoShared
 #else
-SunamoValuesConstants
+SunamoValues
 #endif
 ;
 

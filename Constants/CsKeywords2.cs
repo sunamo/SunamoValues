@@ -1,5 +1,5 @@
 
-namespace SunamoValues.Constants;
+namespace SunamoValues;
 //namespace SunamoValues.Constants;
 
 //public class CsKeywords2

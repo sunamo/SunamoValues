@@ -1,4 +1,4 @@
-namespace SunamoValues.Paths;
+namespace SunamoValues;
 public class ExecutablePaths
 {
     public const string foobar = @"C:\Program Files (x86)\foobar2000\foobar2000.exe";

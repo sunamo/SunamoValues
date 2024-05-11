@@ -4,7 +4,7 @@ SunamoDevCode
 #elif SunamoEnumsHelper
 SunamoEnumsHelper
 #else
-SunamoValuesConstants
+SunamoValues
 #endif
 ;
 

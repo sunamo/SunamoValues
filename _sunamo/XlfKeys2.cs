@@ -1,4 +1,4 @@
-namespace SunamoValues._sunamo;
+namespace SunamoValues;
 
 //namespace SunamoValues._sunamo;
 //internal class XlfKeys2

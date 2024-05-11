@@ -2,7 +2,7 @@ namespace
 #if SunamoFileIO
 SunamoFileIO
 #else
-SunamoValuesPaths
+SunamoValues
 #endif
 ;
 //public class CompareFilesPaths

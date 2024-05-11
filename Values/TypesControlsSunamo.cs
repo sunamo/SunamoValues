@@ -1,4 +1,4 @@
-namespace SunamoValues.Values;
+namespace SunamoValues;
 
 public class TypesControlsSunamo
 {

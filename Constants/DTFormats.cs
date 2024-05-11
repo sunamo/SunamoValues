@@ -1,4 +1,4 @@
-namespace SunamoValues.Constants;
+namespace SunamoValues;
 
 /// <summary>
 /// see https://www.c-sharpcorner.com/blogs/date-and-time-format-in-c-sharp-programming1

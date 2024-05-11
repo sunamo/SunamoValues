@@ -1,4 +1,4 @@
-namespace SunamoValues.Constants;
+namespace SunamoValues;
 
 public class ShortenedExceptions
 {

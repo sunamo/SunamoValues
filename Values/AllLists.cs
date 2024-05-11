@@ -8,7 +8,7 @@ SunamoShared
 #elif SunamoString
 SunamoString
 #else
-SunamoValuesValues
+SunamoValues
 #endif
 ;
 

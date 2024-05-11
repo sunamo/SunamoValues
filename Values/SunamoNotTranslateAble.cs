@@ -4,7 +4,7 @@ SunamoDevCode
 #elif SunamoString
 SunamoString
 #else
-SunamoValuesValues
+SunamoValues
 #endif
 ;
 

@@ -1,4 +1,4 @@
-namespace SunamoValues.Values;
+namespace SunamoValues;
 // Must be in NS due to another MimeTypes is in TurnerSoftware.SitemapTools.web
 
 public static class MimeTypes

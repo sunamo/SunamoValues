@@ -5,7 +5,7 @@ namespace
 #if SunamoDevCode
 SunamoDevCode
 #else
-SunamoValuesAll
+SunamoValues
 #endif
 ;
 

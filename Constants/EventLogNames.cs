@@ -1,4 +1,4 @@
-namespace SunamoValues.Constants;
+namespace SunamoValues;
 
 /// <summary>
 /// This class was created because is relevant just 8 letters of each word

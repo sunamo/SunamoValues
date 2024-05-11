@@ -10,7 +10,7 @@ SunamoHtml
 #elif SunamoRandom
 SunamoRandom
 #else
-SunamoValuesConstants
+SunamoValues
 #endif
 ;
 

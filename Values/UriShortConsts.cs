@@ -2,7 +2,7 @@ namespace
 #if SunamoUri
 SunamoUri
 #else
-SunamoValuesValues
+SunamoValues
 #endif
 ;
 
