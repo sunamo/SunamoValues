@@ -87,6 +87,134 @@ SunamoUriWebServices
 SunamoWinStd
 #elif SunamoXml
 SunamoXml
+#elif SunamoEmbeddedResources
+SunamoEmbeddedResources
+#elif SunamoStringGetString
+SunamoStringGetString
+#elif SunamoArgs
+SunamoArgs
+#elif SunamoAsync
+SunamoAsync
+#elif SunamoAttributes
+SunamoAttributes
+#elif SunamoClearScript
+SunamoClearScript
+#elif SunamoClipboard
+SunamoClipboard
+#elif SunamoCollectionOnDrive
+SunamoCollectionOnDrive
+#elif SunamoCollectionsChangeContent
+SunamoCollectionsChangeContent
+#elif SunamoCollectionsGenericShared
+SunamoCollectionsGenericShared
+#elif SunamoCollectionsIndexesWithNull
+SunamoCollectionsIndexesWithNull
+#elif SunamoCollectionsNonGeneric
+SunamoCollectionsNonGeneric
+#elif SunamoCollectionsShared
+SunamoCollectionsShared
+#elif SunamoCollectionsValuesTableGrid
+SunamoCollectionsValuesTableGrid
+#elif SunamoCollectionWithoutDuplicates
+SunamoCollectionWithoutDuplicates
+#elif SunamoColors
+SunamoColors
+#elif SunamoCompare
+SunamoCompare
+#elif SunamoCrypt
+SunamoCrypt
+#elif SunamoData
+SunamoData
+#elif SunamoDebugCollection
+SunamoDebugCollection
+#elif SunamoDebugIO
+SunamoDebugIO
+#elif SunamoDelegates
+SunamoDelegates
+#elif SunamoEnums
+SunamoEnums
+#elif SunamoEnumsHelper
+SunamoEnumsHelper
+#elif SunamoExceptions
+SunamoExceptions
+#elif SunamoExtensions
+SunamoExtensions
+#elif SunamoFileExtensions
+SunamoFileExtensions
+#elif SunamoFubuCore
+SunamoFubuCore
+#elif SunamoFubuCsProjFile
+SunamoFubuCsProjFile
+#elif SunamoHttp
+SunamoHttp
+#elif SunamoIni
+SunamoIni
+#elif SunamoInterfaces
+SunamoInterfaces
+#elif SunamoJson
+SunamoJson
+#elif SunamoLang
+SunamoLang
+#elif SunamoLogMessage
+SunamoLogMessage
+#elif SunamoMarkdown
+SunamoMarkdown
+#elif SunamoMime
+SunamoMime
+#elif SunamoMsgReader
+SunamoMsgReader
+#elif SunamoNuGetProtocol
+SunamoNuGetProtocol
+#elif SunamoNumbers
+SunamoNumbers
+#elif SunamoNumbersShared
+SunamoNumbersShared
+#elif SunamoOctokit
+SunamoOctokit
+#elif SunamoPackageJson
+SunamoPackageJson
+#elif SunamoPercentCalculator
+SunamoPercentCalculator
+#elif SunamoPInvoke
+SunamoPInvoke
+#elif SunamoRoslyn
+SunamoRoslyn
+#elif SunamoRss
+SunamoRss
+#elif SunamoSolutionsIndexer
+SunamoSolutionsIndexer
+#elif SunamoStopwatch
+SunamoStopwatch
+#elif SunamoStringGetLines
+SunamoStringGetLines
+#elif SunamoStringJoinPairs
+SunamoStringJoinPairs
+#elif SunamoStringParts
+SunamoStringParts
+#elif SunamoStringSubstring
+SunamoStringSubstring
+#elif SunamoThread
+SunamoThread
+#elif SunamoTidy
+SunamoTidy
+#elif SunamoTwoWayDictionary
+SunamoTwoWayDictionary
+#elif SunamoTypeOfMessage
+SunamoTypeOfMessage
+#elif SunamoUnderscore
+SunamoUnderscore
+#elif SunamoVcf
+SunamoVcf
+#elif SunamoWikipedia
+SunamoWikipedia
+#elif SunamoXlfKeys
+SunamoXlfKeys
+#elif SunamoXliffParser
+SunamoXliffParser
+#elif SunamoYaml
+SunamoYaml
+#elif SunamoYouTube
+SunamoYouTube
 #else
 SunamoValues
 #endif

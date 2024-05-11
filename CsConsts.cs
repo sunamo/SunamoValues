@@ -1,4 +1,12 @@
-namespace SunamoValues;
+namespace
+#if SunamoBts
+    SunamoBts
+#elif SunamoChar
+    SunamoChar
+#else
+SunamoValues
+#endif
+    ;
 
 public class CsConsts
 {
