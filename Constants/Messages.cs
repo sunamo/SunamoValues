@@ -3,6 +3,8 @@ namespace
 SunamoCl
 #elif SunamoLogger
 SunamoLogger
+#elif SunamoCollectionsGeneric
+    SunamoCollectionsGeneric
 #elif SunamoTextOutputGenerator
 SunamoTextOutputGenerator
 #else
