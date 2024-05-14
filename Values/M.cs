@@ -1,4 +1,14 @@
-namespace SunamoValues;
+namespace
+#if SunamoFtp
+SunamoFtp
+#elif SunamoShared
+SunamoShared
+#elif SunamoExtensions
+SunamoExtensions
+#else
+SunamoValues
+#endif
+;
 
 //using System;
 //using System.Collections.Generic;

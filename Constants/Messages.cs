@@ -4,7 +4,7 @@ SunamoCl
 #elif SunamoLogger
 SunamoLogger
 #elif SunamoCollectionsGeneric
-    SunamoCollectionsGeneric
+SunamoCollectionsGeneric
 #elif SunamoTextOutputGenerator
 SunamoTextOutputGenerator
 #else

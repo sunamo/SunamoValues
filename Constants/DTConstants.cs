@@ -9,6 +9,8 @@ SunamoFileSystem
 SunamoHtml
 #elif SunamoRandom
 SunamoRandom
+#elif SunamoData
+SunamoData
 #else
 SunamoValues
 #endif
