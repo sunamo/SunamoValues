@@ -5,7 +5,6 @@ SunamoString
 SunamoValues
 #endif
 ;
-
 public class UnicodeWhiteToVisible
 {
     public const char space = '¤';

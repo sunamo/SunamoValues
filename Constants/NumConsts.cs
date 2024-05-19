@@ -17,13 +17,11 @@ SunamoDevCode
 SunamoValues
 #endif
 ;
-
 public class NumConsts
 {
     #region For easy copy
     public const int mOne = -1;
     #endregion
-
     public const int defaultPortIfCannotBeParsed = 587;
     /// <summary>
     /// Min age is 18 due to GDPR - below 18 is needed parent agreement of child
@@ -37,7 +35,6 @@ public class NumConsts
     public static int to = 1000;
     public const long kB = 1024;
     public const double zeroDouble = 0;
-
     public const float zeroFloat = 0;
     /// <summary>
     /// at int should be no postfix

@@ -7,7 +7,6 @@ SunamoDevCode
 SunamoValues
 #endif
 ;
-
 public class GitConsts
 {
     public const string startingHead = "<<<<<<<";

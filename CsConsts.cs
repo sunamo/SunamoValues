@@ -7,7 +7,6 @@ SunamoChar
 SunamoValues
 #endif
 ;
-
 public class CsConsts
 {
     #region For easy copy

@@ -7,7 +7,6 @@ SunamoDevCode
 SunamoValues
 #endif
 ;
-
 public class ComparerConsts
 {
     public const int XDesc = -1;

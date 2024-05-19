@@ -5,13 +5,11 @@ SunamoUriWebServices
 SunamoValues
 #endif
 ;
-
 public class RepairMobileValues
 {
     public static List<string> allRepairServicesOva = null;
     public static List<string> allRepairKitShops = null;
     public static List<string> repairKitShopsFreePickupOstrava = null;
-
     static RepairMobileValues()
     {
         // tady to mus�m m�t 

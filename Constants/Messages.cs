@@ -11,7 +11,6 @@ SunamoTextOutputGenerator
 SunamoValues
 #endif
 ;
-
 /// <summary>
 ///     Usage:
 /// </summary>

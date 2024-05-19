@@ -5,7 +5,6 @@ SunamoUri
 SunamoValues
 #endif
 ;
-
 public class UriShortConsts
 {
     public const string DevCz = "dev.sunamo.net";
@@ -17,7 +16,6 @@ public class UriShortConsts
     public const string PhsCz = "phs.sunamo.net";
     public const string HtpCz = "htp.sunamo.net";
     public const string LyrCz = "lyr.sunamo.net";
-
     // miss acs
     public static List<string> All = CAGConsts.ToList(DevCz, LyrCz, AppCz, GeoCz, ErtCz, RpsCz, ShoCz, PhsCz);
 }

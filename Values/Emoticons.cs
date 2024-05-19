@@ -5,7 +5,6 @@ SunamoShared
 SunamoValues
 #endif
 ;
-
 /// <summary>
 /// all must be public due to object.GetFields()
 /// </summary>
@@ -30,7 +29,6 @@ xD	X‑D
 XD
 =D
 =3	B^D";
-
     public string frownSadAngryPouting = @":‑(
 :(	:‑c
 :c	:‑<
@@ -40,28 +38,22 @@ XD
 :{
 :@
 >:(";
-
     public string crying = @":'‑(
 :'(";
-
     public string tearsOfHappiness = @":'‑)
 :')";
-
     public string horrorDisgustSadnessGreadDismay = @":‑O
 :O	:‑o
 :o	:-0	8‑0
 >:O";
-
     public string kiss = @":-*
 :*
 :×";
-
     public string WinkSmirk = @";‑)
 ;)	*-)
 *)	;‑]
 ;]	;^)	:‑,
 ;D";
-
     /// <summary>
     /// XP, xp - name OS
     /// </summary>
@@ -75,25 +67,20 @@ x‑p
 :b
 d:
 =p	>:P";
-
     /*
     * :/ - http://
     * :L - :Linux
     */
     public string skepticalAnnoyedUndecidedUneasyHesitant = @":‑/
 :‑.	>:\	>:/	:\	=/	=\		=L	:S";
-
     public string indecision = @":‑|
 :|";
-
     public string embarrassedBlushing = @":$	://)
 ://3";
-
     public string tongueTied = @":‑X
 :X	:‑#
 :#	:‑&
 :&";
-
     /*
     * 0:3 - 10:30
     */
@@ -101,25 +88,18 @@ d:
 O:)	0:‑3
 0:‑)
 0:)	0;^)";
-
     public string evil = @">:‑)
 >:)	}:‑)
 }:)	3:‑)
 3:)
 >;)	>:3
 >;3";
-
     public string tongueInCheek = ":‑J";
-
     public string partiedAllNight = "#‑)";
-
     public string drunk = @"%‑)
 %)";
-
     public string beingSick = @":‑###..
 :###..";
-
     public string dunceLike = @"<:‑|";
-
     public string disbelief = "',:-|	',:-l";
 }

@@ -7,7 +7,6 @@ SunamoShared
 SunamoValues
 #endif
 ;
-
 public static class HttpKnownHeaderNames
 {
     public const string CacheControl = "Cache-Control";

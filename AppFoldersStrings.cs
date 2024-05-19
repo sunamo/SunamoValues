@@ -15,7 +15,6 @@ public class AppFoldersStrings
     public const string Cache = "Cache";
     public const string Temp = "Temp";
     #endregion
-
     #region Backuped
     public const string Input = "Input";
     public const string Settings = "Settings";
@@ -27,5 +26,4 @@ public class AppFoldersStrings
     public const string Crypted = "Crypted";
     public const string Reports = "Reports";
     #endregion
-
 }

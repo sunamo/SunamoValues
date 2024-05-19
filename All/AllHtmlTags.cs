@@ -1,6 +1,3 @@
-
-
-
 namespace
 #if SunamoDevCode
 SunamoDevCode
@@ -8,10 +5,6 @@ SunamoDevCode
 SunamoValues
 #endif
 ;
-
-
-
-
 /// <summary>
 /// Must be in shared due to HtmlTextWriterTag in System.Web
 /// All is lower
@@ -31,29 +24,23 @@ public class AllHtmlTags
             {
                 Initialize();
                 withLeftArrow = new List<string>(list.Count);
-
                 for (int i = 0; i < list.Count; i++)
                 {
                     withLeftArrow.Add(AllStrings.lt + list[i] + AllStrings.space);
                 }
             }
-
             return withLeftArrow;
         }
     }
-
     public static void Initialize()
     {
         if (list == null)
         {
-
             list = new List<string>();
-
             foreach (var item in Enum.GetNames(typeof(HtmlTextWriterTag)))
             {
                 list.Add(item.ToLower());
             }
-
             //list.Sort(new SunamoComparerICompare.StringLength.Desc(SunamoComparer.StringLength.Instance));
         }
     }

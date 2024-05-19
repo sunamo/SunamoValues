@@ -7,7 +7,6 @@ SunamoString
 SunamoValues
 #endif
 ;
-
 public class SunamoNotTranslateAble
 {
     public const string From = " - From";

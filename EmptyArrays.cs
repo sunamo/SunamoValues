@@ -15,7 +15,6 @@ SunamoUri
 SunamoValues
 #endif
 ;
-
 public class EmptyArrays
 {
     public static Char[] Chars = new Char[] { };

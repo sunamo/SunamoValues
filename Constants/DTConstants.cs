@@ -15,7 +15,6 @@ SunamoData
 SunamoValues
 #endif
 ;
-
 public class DTConstants
 {
     public const long secondsInMinute = 60;
@@ -29,7 +28,6 @@ public class DTConstants
     public static readonly List<string> daysInWeekCS = new List<string> { Pondeli, Utery, Streda, Ctvrtek, Patek, Sobota, Nedele };
     public static DateTime unixTimeStartEpoch = new DateTime(1970, 1, 1, 0, 0, 0, 0, DateTimeKind.Utc);
     public static DateTime winTimeStartEpoch = new DateTime(1601, 1, 1, 1, 0, 0, 0, DateTimeKind.Utc);
-
     #region Dny v týdny CS
     public const string Pondeli = "Pond\u011Bl\u00ED";
     public const string Utery = "\u00DAter\u00FD";
@@ -39,7 +37,6 @@ public class DTConstants
     public const string Sobota = "Sobota";
     public const string Nedele = "Ned\u011Ble";
     #endregion
-
     #region Měsíce v roce CS
     public const string Leden = "Leden";
     public const string Unor = "\u00DAnor";

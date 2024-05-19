@@ -1,11 +1,12 @@
 namespace
 #if SunamoFileSystem
 SunamoFileSystem
+#elif SunamoGetFiles
+SunamoGetFiles
 #else
 SunamoValues
 #endif
 ;
-
 public class NetFxExceptionsNotTranslateAble
 {
     public const string TheNameOfTheFileCannotBeResolvedByTheSystem
