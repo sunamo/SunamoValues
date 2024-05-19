@@ -229,6 +229,8 @@ SunamoGetFiles
 SunamoGetFolders
 #elif SunamoXlfEngine
 SunamoXlfEngine
+#elif SunamoCollectionsTo
+SunamoCollectionsTo
 #else
 SunamoValues
 #endif
