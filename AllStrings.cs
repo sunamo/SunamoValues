@@ -11,8 +11,8 @@ SunamoCollections
 SunamoCollectionsGeneric
 #elif SunamoConverters
 SunamoConverters
-#elif SunamoCSharp
-SunamoCSharp
+#elif SunamoDevCode
+SunamoDevCode
 #elif SunamoCsv
 SunamoCsv
 #elif SunamoDateTime

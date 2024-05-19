@@ -9,8 +9,8 @@ SunamoChar
 SunamoClipboard
 #elif SunamoCollections
 SunamoCollections
-#elif SunamoCSharp
-SunamoCSharp
+#elif SunamoDevCode
+SunamoDevCode
 #elif SunamoCsv
 SunamoCsv
 #elif SunamoDateTime

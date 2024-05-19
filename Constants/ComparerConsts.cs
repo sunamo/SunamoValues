@@ -1,6 +1,8 @@
 namespace
 #if SunamoDictionary
 SunamoDictionary
+#elif SunamoDevCode
+SunamoDevCode
 #else
 SunamoValues
 #endif
