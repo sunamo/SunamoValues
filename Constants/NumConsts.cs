@@ -13,6 +13,8 @@ SunamoString
 SunamoStringShared
 #elif SunamoDevCode
 SunamoDevCode
+#elif SunamoStringData
+SunamoStringData
 #else
 SunamoValues
 #endif

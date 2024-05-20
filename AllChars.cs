@@ -53,6 +53,8 @@ SunamoStringData
 SunamoStringFormat
 #elif SunamoStringReplace
 SunamoStringReplace
+#elif SunamoStringSplit
+SunamoStringSplit
 #elif SunamoStringShared
 SunamoStringShared
 #elif SunamoStringTrim

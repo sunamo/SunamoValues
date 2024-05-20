@@ -11,6 +11,8 @@ SunamoHtml
 SunamoRandom
 #elif SunamoData
 SunamoData
+#elif SunamoGoogleSheets
+SunamoGoogleSheets
 #else
 SunamoValues
 #endif
