@@ -17,7 +17,7 @@ public class CultureInfos
             cz = CultureInfo.GetCultureInfo("cs");
             if (cz == null)
             {
-                Debugger.Break();
+                System.Diagnostics.Debugger.Break();
                 // use cs-CZ
             }
         }

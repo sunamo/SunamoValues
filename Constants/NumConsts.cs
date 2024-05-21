@@ -15,6 +15,8 @@ SunamoStringShared
 SunamoDevCode
 #elif SunamoStringData
 SunamoStringData
+#elif SunamoGetFiles
+SunamoGetFiles
 #else
 SunamoValues
 #endif

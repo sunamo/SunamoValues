@@ -3,6 +3,8 @@ namespace
 SunamoDevCode
 #elif SunamoEnumsHelper
 SunamoEnumsHelper
+#elif SunamoShared
+SunamoShared
 #else
 SunamoValues
 #endif
