@@ -1,7 +1,7 @@
 namespace SunamoValues;
 
 
-internal enum HtmlTextWriterTag
+public enum HtmlTextWriterTag
 {
     Unknown = 0,
     A = 1,
