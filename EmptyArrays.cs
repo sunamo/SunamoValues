@@ -1,20 +1,3 @@
-namespace
-#if SunamoCl
-SunamoCl
-#elif SunamoCollections
-SunamoCollections
-#elif SunamoFileSystem
-SunamoFileSystem
-#elif SunamoFtp
-SunamoFtp
-#elif SunamoLogger
-SunamoLogger
-#elif SunamoUri
-SunamoUri
-#else
-SunamoValues
-#endif
-;
 public class EmptyArrays
 {
     public static Char[] Chars = new Char[] { };

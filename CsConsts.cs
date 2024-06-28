@@ -1,12 +1,3 @@
-namespace
-#if SunamoBts
-SunamoBts
-#elif SunamoChar
-SunamoChar
-#else
-SunamoValues
-#endif
-;
 public class CsConsts
 {
     #region For easy copy
