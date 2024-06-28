@@ -1,3 +1,5 @@
+
+namespace SunamoValues;
 public class DTConstants
 {
     public const long secondsInMinute = 60;

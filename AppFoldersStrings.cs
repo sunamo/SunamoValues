@@ -1,3 +1,5 @@
+
+namespace SunamoValues;
 public class AppFoldersStrings
 {
     #region Not backuped

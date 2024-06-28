@@ -1,3 +1,5 @@
+
+namespace SunamoValues;
 public class ComparerConsts
 {
     public const int XDesc = -1;

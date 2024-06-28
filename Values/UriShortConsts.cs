@@ -1,3 +1,5 @@
+
+namespace SunamoValues;
 public class UriShortConsts
 {
     public const string DevCz = "dev.sunamo.net";

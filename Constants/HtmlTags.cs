@@ -1,3 +1,5 @@
+
+namespace SunamoValues;
 /// <summary>
 /// plural - as string
 /// </summary>

@@ -1,3 +1,5 @@
+
+namespace SunamoValues;
 public class HtmlStartingTags
 {
     static Type type = typeof(HtmlStartingTags);

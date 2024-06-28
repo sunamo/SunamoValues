@@ -1,3 +1,5 @@
+
+namespace SunamoValues;
 public class RepairMobileValues
 {
     public static List<string> allRepairServicesOva = null;

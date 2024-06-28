@@ -1,3 +1,5 @@
+
+namespace SunamoValues;
 public class SunamoNotTranslateAble
 {
     public const string From = " - From";

@@ -1,3 +1,5 @@
+
+namespace SunamoValues;
 public class HtmlEndingTags
 {
     static Type type = typeof(HtmlEndingTags);

@@ -1,3 +1,5 @@
+
+namespace SunamoValues;
 /// <summary>
 /// Everything must be consts to use in AllHtmlAttrsValues
 /// </summary>

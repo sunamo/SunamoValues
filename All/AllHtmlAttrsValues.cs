@@ -1,3 +1,5 @@
+
+namespace SunamoValues;
 using System.Reflection;
 public class AllHtmlAttrsValues
 {

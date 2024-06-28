@@ -1,3 +1,5 @@
+
+namespace SunamoValues;
 public static class HttpKnownHeaderNames
 {
     public const string CacheControl = "Cache-Control";

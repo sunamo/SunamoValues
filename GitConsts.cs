@@ -1,3 +1,5 @@
+
+namespace SunamoValues;
 public class GitConsts
 {
     public const string startingHead = "<<<<<<<";

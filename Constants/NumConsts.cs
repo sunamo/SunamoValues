@@ -1,3 +1,5 @@
+
+namespace SunamoValues;
 public class NumConsts
 {
     #region For easy copy

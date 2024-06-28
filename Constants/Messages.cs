@@ -1,3 +1,5 @@
+
+namespace SunamoValues;
 /// <summary>
 ///     Usage:
 /// </summary>

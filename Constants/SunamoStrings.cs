@@ -1,3 +1,5 @@
+
+namespace SunamoValues;
 /// <summary>
 /// Here can be just constants, not methods
 /// </summary>

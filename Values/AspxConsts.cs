@@ -1,3 +1,5 @@
+
+namespace SunamoValues;
 public class AspxConsts
 {
     public static readonly string startAspxComment = "<%--";

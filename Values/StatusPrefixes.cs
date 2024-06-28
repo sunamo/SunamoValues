@@ -1,3 +1,5 @@
+
+namespace SunamoValues;
 public class StatusPrefixes
 {
     public const string error = "error:";

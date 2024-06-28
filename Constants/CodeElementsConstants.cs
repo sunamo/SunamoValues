@@ -1,3 +1,5 @@
+
+namespace SunamoValues;
 public class CodeElementsConstants
 {
     public const string NopeValue = "Nope";

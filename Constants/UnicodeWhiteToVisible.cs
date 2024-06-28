@@ -1,3 +1,5 @@
+
+namespace SunamoValues;
 public class UnicodeWhiteToVisible
 {
     public const char space = '¤';

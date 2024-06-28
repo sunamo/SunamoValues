@@ -1,3 +1,5 @@
+
+namespace SunamoValues;
 public class RuntimeFrameworks
 {
     public const string netCore = ".NET Core";

@@ -1,3 +1,5 @@
+
+namespace SunamoValues;
 public class NetFxExceptionsNotTranslateAble
 {
     public const string TheNameOfTheFileCannotBeResolvedByTheSystem

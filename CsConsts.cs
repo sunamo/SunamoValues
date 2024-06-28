@@ -1,3 +1,5 @@
+
+namespace SunamoValues;
 public class CsConsts
 {
     #region For easy copy
