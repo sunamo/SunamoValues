@@ -1,12 +1,3 @@
-namespace
-#if SunamoDevCode
-SunamoDevCode
-#elif SunamoString
-SunamoString
-#else
-SunamoValues
-#endif
-;
 public class SunamoNotTranslateAble
 {
     public const string From = " - From";

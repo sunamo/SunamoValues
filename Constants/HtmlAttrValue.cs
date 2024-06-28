@@ -1,12 +1,3 @@
-namespace
-#if SunamoHtml
-SunamoHtml
-#elif SunamoDevCode
-SunamoDevCode
-#else
-SunamoValues
-#endif
-;
 /// <summary>
 /// Everything must be consts to use in AllHtmlAttrsValues
 /// </summary>

@@ -1,11 +1,4 @@
 using System.Globalization;
-namespace
-#if SunamoDateTime
-SunamoDateTime
-#else
-SunamoValues
-#endif
-;
 public class CultureInfos
 {
     public static CultureInfo cz = null;

@@ -1,11 +1,4 @@
 using System.Reflection;
-namespace
-#if SunamoDevCode
-SunamoDevCode
-#else
-SunamoValues
-#endif
-;
 public class AllHtmlAttrsValues
 {
     static bool initialized = false;

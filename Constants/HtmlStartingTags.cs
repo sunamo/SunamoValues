@@ -1,10 +1,3 @@
-namespace
-#if SunamoHtml
-SunamoHtml
-#else
-SunamoValues
-#endif
-;
 public class HtmlStartingTags
 {
     static Type type = typeof(HtmlStartingTags);

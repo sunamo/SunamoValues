@@ -1,10 +1,3 @@
-namespace
-#if SunamoShared
-SunamoShared
-#else
-SunamoValues
-#endif
-;
 public class RuntimeFrameworks
 {
     public const string netCore = ".NET Core";

@@ -1,10 +1,3 @@
-namespace
-#if SunamoUri
-SunamoUri
-#else
-SunamoValues
-#endif
-;
 public class UriShortConsts
 {
     public const string DevCz = "dev.sunamo.net";

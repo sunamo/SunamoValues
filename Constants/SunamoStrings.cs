@@ -1,10 +1,3 @@
-namespace
-#if SunamoDevCode
-SunamoDevCode
-#else
-SunamoValues
-#endif
-;
 /// <summary>
 /// Here can be just constants, not methods
 /// </summary>

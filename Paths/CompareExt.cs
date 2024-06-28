@@ -1,10 +1,3 @@
-namespace
-#if SunamoFileIO
-SunamoFileIO
-#else
-SunamoValues
-#endif
-;
 //public class CompareFilesPaths
 //{
 //    public static string GetFile(CompareExt c, int i)
@@ -40,3 +33,4 @@ public enum CompareExt
     json,
     txt
 }
+

@@ -1,14 +1,3 @@
-namespace
-#if SunamoDevCode
-SunamoDevCode
-#elif SunamoEnumsHelper
-SunamoEnumsHelper
-#elif SunamoShared
-SunamoShared
-#else
-SunamoValues
-#endif
-;
 public class CodeElementsConstants
 {
     public const string NopeValue = "Nope";

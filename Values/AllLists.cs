@@ -1,18 +1,3 @@
-namespace
-#if SunamoDevCode
-SunamoDevCode
-#elif SunamoHtml
-SunamoHtml
-#elif SunamoShared
-SunamoShared
-#elif SunamoString
-SunamoString
-#elif SunamoXlfEngine
-SunamoXlfEngine
-#else
-SunamoValues
-#endif
-;
 public class AllLists
 {
     /// <summary>

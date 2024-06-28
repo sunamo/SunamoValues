@@ -1,10 +1,3 @@
-namespace
-#if SunamoHtml
-SunamoHtml
-#else
-SunamoValues
-#endif
-;
 public class StatusPrefixes
 {
     public const string error = "error:";

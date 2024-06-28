@@ -1,26 +1,3 @@
-namespace
-#if SunamoCompare
-SunamoCompare
-#elif SunamoFileSystem
-SunamoFileSystem
-#elif SunamoNumbers
-SunamoNumbers
-#elif SunamoShared
-SunamoShared
-#elif SunamoString
-SunamoString
-#elif SunamoStringShared
-SunamoStringShared
-#elif SunamoDevCode
-SunamoDevCode
-#elif SunamoStringData
-SunamoStringData
-#elif SunamoGetFiles
-SunamoGetFiles
-#else
-SunamoValues
-#endif
-;
 public class NumConsts
 {
     #region For easy copy

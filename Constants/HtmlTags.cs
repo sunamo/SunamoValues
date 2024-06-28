@@ -1,12 +1,3 @@
-namespace
-#if SunamoHtml
-SunamoHtml
-#elif SunamoWikipedia
-SunamoWikipedia
-#else
-SunamoValues
-#endif
-;
 /// <summary>
 /// plural - as string
 /// </summary>

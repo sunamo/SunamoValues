@@ -1,10 +1,3 @@
-namespace
-#if SunamoUriWebServices
-SunamoUriWebServices
-#else
-SunamoValues
-#endif
-;
 public class RepairMobileValues
 {
     public static List<string> allRepairServicesOva = null;

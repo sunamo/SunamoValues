@@ -1,12 +1,3 @@
-namespace
-#if SunamoHtml
-SunamoHtml
-#elif SunamoWikipedia
-SunamoWikipedia
-#else
-SunamoValues
-#endif
-;
 public class AspxConsts
 {
     public static readonly string startAspxComment = "<%--";

@@ -1,16 +1,3 @@
-namespace
-#if SunamoCl
-SunamoCl
-#elif SunamoLogger
-SunamoLogger
-#elif SunamoCollectionsGeneric
-SunamoCollectionsGeneric
-#elif SunamoTextOutputGenerator
-SunamoTextOutputGenerator
-#else
-SunamoValues
-#endif
-;
 /// <summary>
 ///     Usage:
 /// </summary>

@@ -1,12 +1,3 @@
-namespace
-#if SunamoHttp
-SunamoHttp
-#elif SunamoShared
-SunamoShared
-#else
-SunamoValues
-#endif
-;
 public static class HttpKnownHeaderNames
 {
     public const string CacheControl = "Cache-Control";

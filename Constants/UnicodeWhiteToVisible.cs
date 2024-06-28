@@ -1,10 +1,3 @@
-namespace
-#if SunamoString
-SunamoString
-#else
-SunamoValues
-#endif
-;
 public class UnicodeWhiteToVisible
 {
     public const char space = '¤';

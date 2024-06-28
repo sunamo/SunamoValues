@@ -1,22 +1,3 @@
-namespace
-#if SunamoConverters
-SunamoConverters
-#elif SunamoDateTime
-SunamoDateTime
-#elif SunamoFileSystem
-SunamoFileSystem
-#elif SunamoHtml
-SunamoHtml
-#elif SunamoRandom
-SunamoRandom
-#elif SunamoData
-SunamoData
-#elif SunamoGoogleSheets
-SunamoGoogleSheets
-#else
-SunamoValues
-#endif
-;
 public class DTConstants
 {
     public const long secondsInMinute = 60;

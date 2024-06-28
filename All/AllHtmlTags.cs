@@ -1,10 +1,3 @@
-namespace
-#if SunamoDevCode
-SunamoDevCode
-#else
-SunamoValues
-#endif
-;
 /// <summary>
 /// Must be in shared due to HtmlTextWriterTag in System.Web
 /// All is lower

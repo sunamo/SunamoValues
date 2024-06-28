@@ -1,10 +1,3 @@
-namespace
-#if SunamoShared
-SunamoShared
-#else
-SunamoValues
-#endif
-;
 /// <summary>
 /// all must be public due to object.GetFields()
 /// </summary>

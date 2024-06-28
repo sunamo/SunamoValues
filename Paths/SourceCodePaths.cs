@@ -1,10 +1,3 @@
-namespace
-#if SunamoGitBashBuilder
-SunamoGitBashBuilder
-#else
-SunamoValues
-#endif
-;
 public class SourceCodePaths
 {
     // Commented, mělo by by to být e:\vs\Projects. e:\vs\ je tu 2x. mystyfikovalo to.
