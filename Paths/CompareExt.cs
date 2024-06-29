@@ -11,7 +11,7 @@ namespace SunamoValues;
 
 //public class CompareTwoFilesHelper
 //{
-//    static string basePath = DefaultPaths.bp + @"Projects\_tests\CompareTwoFiles\CompareTwoFiles\";
+//    static string basePath = BasePathsHelper.bp + @"Projects\_tests\CompareTwoFiles\CompareTwoFiles\";
 
 //    public static string Txt(int n)
 //    {
