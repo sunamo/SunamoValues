@@ -21,3 +21,5 @@ global using SunamoValues._sunamo.SunamoXlfKeys;
 global using SunamoValues._sunamo.SunamoEnums.Enums;
 global using SunamoValues._sunamo.SunamoExceptions.OnlyInSE;
 global using SunamoValues._sunamo.SunamoExceptions._AddedToAllCsproj;
+global using System.Net;
+global using System.Threading.Tasks;

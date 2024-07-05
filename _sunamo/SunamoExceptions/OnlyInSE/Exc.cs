@@ -1,7 +1,5 @@
 namespace SunamoValues._sunamo.SunamoExceptions.OnlyInSE;
 
-using System.Diagnostics;
-using System.Text;
 
 //namespace SunamoExceptions
 //{

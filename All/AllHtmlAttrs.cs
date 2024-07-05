@@ -1,4 +1,3 @@
-
 namespace SunamoValues.All;
 public class AllHtmlAttrs
 {

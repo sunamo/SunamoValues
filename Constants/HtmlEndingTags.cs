@@ -1,4 +1,3 @@
-
 namespace SunamoValues.Constants;
 public class HtmlEndingTags
 {

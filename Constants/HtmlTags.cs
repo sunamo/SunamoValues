@@ -1,4 +1,3 @@
-
 namespace SunamoValues.Constants;
 /// <summary>
 /// plural - as string

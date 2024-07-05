@@ -1,6 +1,4 @@
-
 namespace SunamoValues.Values;
-using System.Globalization;
 public class CultureInfos
 {
     public static CultureInfo cz = null;

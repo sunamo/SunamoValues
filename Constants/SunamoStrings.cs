@@ -1,4 +1,3 @@
-
 namespace SunamoValues.Constants;
 /// <summary>
 /// Here can be just constants, not methods

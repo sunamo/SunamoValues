@@ -1,4 +1,3 @@
-
 namespace SunamoValues.Paths;
 public class SourceCodePaths
 {

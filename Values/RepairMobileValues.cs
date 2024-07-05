@@ -1,4 +1,3 @@
-
 namespace SunamoValues.Values;
 public class RepairMobileValues
 {

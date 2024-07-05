@@ -1,4 +1,3 @@
-
 namespace SunamoValues.Paths;
 //public class CompareFilesPaths
 //{
@@ -35,4 +34,3 @@ public enum CompareExt
     json,
     txt
 }
-

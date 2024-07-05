@@ -1,4 +1,3 @@
-
 namespace SunamoValues;
 public class EmptyArrays
 {
