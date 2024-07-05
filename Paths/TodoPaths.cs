@@ -1,4 +1,4 @@
-namespace SunamoValues;
+namespace SunamoValues.Paths;
 public class TodoPaths
 {
     #region Todo

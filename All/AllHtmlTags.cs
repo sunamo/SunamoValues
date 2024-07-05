@@ -1,5 +1,5 @@
 
-namespace SunamoValues;
+namespace SunamoValues.All;
 /// <summary>
 /// Must be in shared due to HtmlTextWriterTag in System.Web
 /// All is lower

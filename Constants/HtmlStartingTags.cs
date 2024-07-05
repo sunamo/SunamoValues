@@ -1,5 +1,5 @@
 
-namespace SunamoValues;
+namespace SunamoValues.Constants;
 public class HtmlStartingTags
 {
     static Type type = typeof(HtmlStartingTags);

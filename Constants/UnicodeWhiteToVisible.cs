@@ -1,5 +1,5 @@
 
-namespace SunamoValues;
+namespace SunamoValues.Constants;
 public class UnicodeWhiteToVisible
 {
     public const char space = '¤';

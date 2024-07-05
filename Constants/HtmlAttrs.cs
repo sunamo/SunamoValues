@@ -1,5 +1,5 @@
 
-namespace SunamoValues;
+namespace SunamoValues.Constants;
 /// <summary>
 /// plural - as string
 /// all have be lower - even if defaultly is upper case (like web forms)

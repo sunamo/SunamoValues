@@ -1,5 +1,5 @@
 
-namespace SunamoValues;
+namespace SunamoValues.All;
 public class AllHtmlAttrs
 {
     //

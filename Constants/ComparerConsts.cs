@@ -1,5 +1,5 @@
 
-namespace SunamoValues;
+namespace SunamoValues.Constants;
 public class ComparerConsts
 {
     public const int XDesc = -1;

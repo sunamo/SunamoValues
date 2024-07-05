@@ -1,5 +1,5 @@
 
-namespace SunamoValues;
+namespace SunamoValues.Constants;
 /// <summary>
 /// Everything must be consts to use in AllHtmlAttrsValues
 /// </summary>

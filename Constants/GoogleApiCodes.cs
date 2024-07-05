@@ -1,4 +1,4 @@
-namespace SunamoValues;
+namespace SunamoValues.Constants;
 
 public class GoogleApiCodes
 {

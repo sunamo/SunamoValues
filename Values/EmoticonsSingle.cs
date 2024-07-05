@@ -1,4 +1,4 @@
-namespace SunamoValues;
+namespace SunamoValues.Values;
 
 public class EmoticonsSingle
 {

@@ -1,5 +1,5 @@
 
-namespace SunamoValues;
+namespace SunamoValues.Values;
 public class StatusPrefixes
 {
     public const string error = "error:";

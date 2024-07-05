@@ -1,5 +1,5 @@
 
-namespace SunamoValues;
+namespace SunamoValues.Constants;
 /// <summary>
 ///     Usage:
 /// </summary>

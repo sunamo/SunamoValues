@@ -1,4 +1,4 @@
-namespace SunamoValues;
+namespace SunamoValues._sunamo.SunamoExceptions._AddedToAllCsproj;
 
 using System;
 using System.Collections.Generic;

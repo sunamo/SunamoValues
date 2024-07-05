@@ -1,5 +1,5 @@
 
-namespace SunamoValues;
+namespace SunamoValues.Values;
 /// <summary>
 /// all must be public due to object.GetFields()
 /// </summary>

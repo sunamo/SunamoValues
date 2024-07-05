@@ -1,5 +1,5 @@
 
-namespace SunamoValues;
+namespace SunamoValues.Paths;
 //public class CompareFilesPaths
 //{
 //    public static string GetFile(CompareExt c, int i)

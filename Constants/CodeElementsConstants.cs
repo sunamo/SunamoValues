@@ -1,5 +1,5 @@
 
-namespace SunamoValues;
+namespace SunamoValues.Constants;
 public class CodeElementsConstants
 {
     public const string NopeValue = "Nope";

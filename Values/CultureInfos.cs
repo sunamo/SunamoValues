@@ -1,5 +1,5 @@
 
-namespace SunamoValues;
+namespace SunamoValues.Values;
 using System.Globalization;
 public class CultureInfos
 {
