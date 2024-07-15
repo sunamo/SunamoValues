@@ -1,4 +1,5 @@
 namespace SunamoValues.Constants;
+
 public class HtmlEndingTags
 {
     static Type type = typeof(HtmlEndingTags);
@@ -6,7 +7,7 @@ public class HtmlEndingTags
     public const string i = "</i>";
     public const string s = "</s>";
 
-    internal static string Get(string value)
+    public static string Get(string value)
     {
         return "</" + value + ">"; 
     }
