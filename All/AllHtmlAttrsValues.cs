@@ -1,4 +1,5 @@
 namespace SunamoValues.All;
+
 public class AllHtmlAttrsValues
 {
     static bool initialized = false;
