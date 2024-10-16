@@ -4,7 +4,7 @@ namespace SunamoValues.Paths;
 //    public static string GetFile(CompareExt c, int i)
 //    {
 
-//        return BasePathsHelper.vs + @"_tests\CompareTwoFiles\CompareTwoFiles\" + c + @"\" + i + "." + c;
+//        return BasePathsHelper.vs + @"_tests\CompareTwoFiles\CompareTwoFiles\" + c + @"\"" + i + "." + c;
 //    }
 //}
 
