@@ -12,3 +12,4 @@ global using SunamoValues._sunamo.SunamoCollectionsGeneric;
 global using SunamoValues._sunamo.SunamoEnums.Enums;
 global using SunamoValues._sunamo.SunamoExceptions;
 global using System.Net;
+global using System.Diagnostics.CodeAnalysis;
