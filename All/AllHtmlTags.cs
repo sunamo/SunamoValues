@@ -20,7 +20,7 @@ public class AllHtmlTags
                 withLeftArrow = new List<string>(list.Count);
                 for (int i = 0; i < list.Count; i++)
                 {
-                    withLeftArrow.Add("<" + list[i] + "");
+                    withLeftArrow.Add("<" + list[i] + " ");
                 }
             }
             return withLeftArrow;
