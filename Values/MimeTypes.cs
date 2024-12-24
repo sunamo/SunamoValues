@@ -683,7 +683,7 @@ public static class MimeTypes
             {"image/jpeg", ".jpg"},
             {"image/pict", ".pic"},
             {"image/png", ".png"}, //Defined in [RFC-2045], [RFC-2048]
-            {"image/x-png", ".png"}, //See https://www.w3.org/TR/PNG/#A-Media-type :sess.i18n(XlfKeys.ItIsRecommendedThatImplementationsAlsoRecognizeTheMediaType)+" "image/x-png"."
+            {"image/x-png", ".png"}, //See https://www.w3.org/TR/PNG/#A-Media-type :Translate.FromKey(XlfKeys.ItIsRecommendedThatImplementationsAlsoRecognizeTheMediaType)+" "image/x-png"."
             {"image/tiff", ".tiff"},
             {"image/x-macpaint", ".mac"},
             {"image/x-quicktime", ".qti"},
