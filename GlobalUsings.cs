@@ -15,7 +15,6 @@ global using System.Net;
 global using System.Diagnostics.CodeAnalysis;
 global using SunamoValues;
 global using SunamoValues.All;
-global using SunamoValues.Paths;
 global using SunamoValues.Values;
 global using SunamoValues._sunamo;
 global using SunamoValues._sunamo.SunamoCollections;
