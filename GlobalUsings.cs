@@ -18,3 +18,7 @@ global using SunamoValues.All;
 global using SunamoValues.Values;
 global using SunamoValues._sunamo;
 global using SunamoValues._sunamo.SunamoCollections;
+
+global using ILogger = Microsoft.Extensions.Logging.ILogger;
+global using Microsoft.Extensions.Logging;
+global using NullLogger = Microsoft.Extensions.Logging.Abstractions.NullLogger;
