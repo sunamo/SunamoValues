@@ -1,5 +1,6 @@
 namespace SunamoValues.Values;
-public class AspxConsts
+
+public class ConstsAspx
 {
     public static readonly string startAspxComment = "<%--";
     public static readonly string endAspxComment = "--%>";
