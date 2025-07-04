@@ -16,6 +16,6 @@ public class SunamoStrings
     //public static string IsNotInRange = "is not in range";
     public static string MessageIfEmpty(string p)
     {
-        return "";
+        return p + " is empty!";
     }
 }
