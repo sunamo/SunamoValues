@@ -1,3 +1,6 @@
+// EN: Variable names have been checked and replaced with self-descriptive names
+// CZ: Názvy proměnných byly zkontrolovány a nahrazeny samopopisnými názvy
+
 namespace SunamoValues.All;
 
 public class AllHtmlAttrsValues
@@ -9,9 +12,9 @@ public class AllHtmlAttrsValues
         if (!initialized)
         {
             initialized = true;
-            var d = typeof(HtmlAttrValue).GetFields(BindingFlags.Public | BindingFlags.Static | BindingFlags.FlattenHierarchy)
+            var data = typeof(HtmlAttrValue).GetFields(BindingFlags.Public | BindingFlags.Static | BindingFlags.FlattenHierarchy)
             .Where(fi => fi.IsLiteral && !fi.IsInitOnly);
-            foreach (var item in d)
+            foreach (var item in data)
             {
                 list.Add(item.GetValue(null).ToString());
             }

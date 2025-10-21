@@ -1,3 +1,6 @@
+// EN: Variable names have been checked and replaced with self-descriptive names
+// CZ: Názvy proměnných byly zkontrolovány a nahrazeny samopopisnými názvy
+
 namespace SunamoValues.Values;
 
 public class AllLists
@@ -2187,12 +2190,12 @@ public class AllLists
         }
         else
         {
-            StringBuilder sb = new StringBuilder();
+            StringBuilder stringBuilder = new StringBuilder();
             foreach (var item in v)
             {
-                sb.Append(HtmlEncodeOne(item.ToString()));
+                stringBuilder.Append(HtmlEncodeOne(item.ToString()));
             }
-            return sb.ToString();
+            return stringBuilder.ToString();
         }
     }
     private static string HtmlEncodeOne(string v)
