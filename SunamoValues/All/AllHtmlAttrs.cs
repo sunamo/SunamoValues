@@ -1,6 +1,7 @@
+namespace SunamoValues.All;
+
 // EN: Variable names have been checked and replaced with self-descriptive names
 // CZ: Názvy proměnných byly zkontrolovány a nahrazeny samopopisnými názvy
-namespace SunamoValues.All;
 public class AllHtmlAttrs
 {
     //

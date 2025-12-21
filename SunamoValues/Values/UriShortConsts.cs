@@ -1,6 +1,7 @@
+namespace SunamoValues.Values;
+
 // EN: Variable names have been checked and replaced with self-descriptive names
 // CZ: Názvy proměnných byly zkontrolovány a nahrazeny samopopisnými názvy
-namespace SunamoValues.Values;
 public class UriShortConsts
 {
     public const string DevCz = "dev.sunamo.net";
