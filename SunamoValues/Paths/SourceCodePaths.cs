@@ -1,3 +1,4 @@
+// variables names: ok
 // Toto už nejde. Je to pro všechny, nejen pro mně.
 // namespace SunamoValues.Paths;
 // public class SourceCodePaths

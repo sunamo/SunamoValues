@@ -1,3 +1,4 @@
+// variables names: ok
 namespace SunamoValues.Values;
 
 public class Domains
