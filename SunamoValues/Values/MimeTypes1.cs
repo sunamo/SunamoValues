@@ -1,13 +1,14 @@
 namespace SunamoValues.Values;
 
-// EN: Variable names have been checked and replaced with self-descriptive names
-// CZ: Názvy proměnných byly zkontrolovány a nahrazeny samopopisnými názvy
-// Must be in NS due to another MimeTypes is in TurnerSoftware.SitemapTools.web
+/// <summary>
+/// Partial class containing MIME type dictionary initialization data.
+/// Must be in NS due to another MimeTypes is in TurnerSoftware.SitemapTools.web.
+/// </summary>
 public static partial class MimeTypes
 {
     static void Init()
     {
-        Mappings = new Dictionary<string, string>(StringComparer.OrdinalIgnoreCase)
+        mappings = new Dictionary<string, string>(StringComparer.OrdinalIgnoreCase)
         {
             // maps both ways,
             // extension -> mime type

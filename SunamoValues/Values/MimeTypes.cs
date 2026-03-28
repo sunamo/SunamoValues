@@ -1,20 +1,25 @@
 namespace SunamoValues.Values;
 
-// EN: Variable names have been checked and replaced with self-descriptive names
-// CZ: Názvy proměnných byly zkontrolovány a nahrazeny samopopisnými názvy
-// Must be in NS due to another MimeTypes is in TurnerSoftware.SitemapTools.web
+/// <summary>
+/// MIME type mappings between file extensions and content types.
+/// Must be in NS due to another MimeTypes is in TurnerSoftware.SitemapTools.web.
+/// </summary>
 public static partial class MimeTypes
 {
-    // code take here : https://github.com/samuelneff/MimeTypeMap/blob/master/src/MimeTypes/MimeTypeMap.cs
-    // On MIT License
-    static Dictionary<string, string> Mappings = null;
-    public static string ForExtension(string ext)
+    static Dictionary<string, string>? mappings = null;
+
+    /// <summary>
+    /// Returns the MIME type for the specified file extension.
+    /// </summary>
+    /// <param name="extension">The file extension (including the dot).</param>
+    /// <returns>The corresponding MIME type string.</returns>
+    public static string ForExtension(string extension)
     {
-        if (Mappings == null)
+        if (mappings == null)
         {
             Init();
         }
 
-        return Mappings[ext];
+        return mappings![extension];
     }
 }

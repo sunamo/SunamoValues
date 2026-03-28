@@ -1,10 +1,17 @@
 namespace SunamoValues.Constants;
 
+/// <summary>
+/// Numeric constants as string representations.
+/// </summary>
 public class NumConstsString
 {
     /// <summary>
-    /// at int should be no postfix
+    /// One as string (no type postfix).
     /// </summary>
-    public const string one = "1";
-    public const string zeroInt = "0";
+    public const string One = "1";
+
+    /// <summary>
+    /// Zero as string.
+    /// </summary>
+    public const string ZeroInt = "0";
 }

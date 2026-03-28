@@ -1,16 +1,14 @@
 namespace SunamoValues.Values;
 
-// EN: Variable names have been checked and replaced with self-descriptive names
-// CZ: Názvy proměnných byly zkontrolovány a nahrazeny samopopisnými názvy
 /// <summary>
-/// all must be public due to object.GetFields()
+/// Emoticon pattern collections. All must be public due to object.GetFields().
 /// </summary>
 public class Emoticons
 {
     /// <summary>
-    /// :3 - 10:30
+    /// Happy face emoticon patterns (:3 - 10:30).
     /// </summary>
-    public string happyFace = @":‑)
+    public string HappyFace { get; set; } = @":‑)
 :)	:-]
 :]	:-3
 :->
@@ -26,7 +24,11 @@ xD	X‑D
 XD
 =D
 =3	B^D";
-    public string frownSadAngryPouting = @":‑(
+
+    /// <summary>
+    /// Frown, sad, angry, pouting emoticon patterns.
+    /// </summary>
+    public string FrownSadAngryPouting { get; set; } = @":‑(
 :(	:‑c
 :c	:‑<
 :<	:‑[
@@ -35,26 +37,47 @@ XD
 :{
 :@
 >:(";
-    public string crying = @":'‑(
+
+    /// <summary>
+    /// Crying emoticon patterns.
+    /// </summary>
+    public string Crying { get; set; } = @":'‑(
 :'(";
-    public string tearsOfHappiness = @":'‑)
+
+    /// <summary>
+    /// Tears of happiness emoticon patterns.
+    /// </summary>
+    public string TearsOfHappiness { get; set; } = @":'‑)
 :')";
-    public string horrorDisgustSadnessGreadDismay = @":‑O
+
+    /// <summary>
+    /// Horror, disgust, sadness, greed, dismay emoticon patterns.
+    /// </summary>
+    public string HorrorDisgustSadnessGreadDismay { get; set; } = @":‑O
 :O	:‑o
 :o	:-0	8‑0
 >:O";
-    public string kiss = @":-*
+
+    /// <summary>
+    /// Kiss emoticon patterns.
+    /// </summary>
+    public string Kiss { get; set; } = @":-*
 :*
 :×";
-    public string WinkSmirk = @";‑)
+
+    /// <summary>
+    /// Wink or smirk emoticon patterns.
+    /// </summary>
+    public string WinkSmirk { get; set; } = @";‑)
 ;)	*-)
 *)	;‑]
 ;]	;^)	:‑,
 ;D";
+
     /// <summary>
-    /// XP, xp - name OS
+    /// Tongue sticking out, cheeky, playful emoticon patterns (XP, xp excluded due to OS name).
     /// </summary>
-    public string tongueStickingOutCheekyPlayful = @":‑P
+    public string TongueStickingOutCheekyPlayful { get; set; } = @":‑P
 :P	X‑P
 x‑p
 :‑p
@@ -64,39 +87,80 @@ x‑p
 :b
 d:
 =p	>:P";
-    /*
-    * :/ - http://
-    * :L - :Linux
-    */
-    public string skepticalAnnoyedUndecidedUneasyHesitant = @":‑/
+
+    /// <summary>
+    /// Skeptical, annoyed, undecided, uneasy, hesitant emoticon patterns.
+    /// </summary>
+    public string SkepticalAnnoyedUndecidedUneasyHesitant { get; set; } = @":‑/
 :‑.	>:\	>:/	:\	=/	=\		=L	:S";
-    public string indecision = @":‑|
+
+    /// <summary>
+    /// Indecision emoticon patterns.
+    /// </summary>
+    public string Indecision { get; set; } = @":‑|
 :|";
-    public string embarrassedBlushing = @":$	://)
+
+    /// <summary>
+    /// Embarrassed or blushing emoticon patterns.
+    /// </summary>
+    public string EmbarrassedBlushing { get; set; } = @":$	://)
 ://3";
-    public string tongueTied = @":‑X
+
+    /// <summary>
+    /// Tongue-tied emoticon patterns.
+    /// </summary>
+    public string TongueTied { get; set; } = @":‑X
 :X	:‑#
 :#	:‑&
 :&";
-    /*
-    * 0:3 - 10:30
-    */
-    public string angelSaint = @"O:‑)
+
+    /// <summary>
+    /// Angel or saint emoticon patterns (0:3 - 10:30).
+    /// </summary>
+    public string AngelSaint { get; set; } = @"O:‑)
 O:)	0:‑3
 0:‑)
 0:)	0;^)";
-    public string evil = @">:‑)
+
+    /// <summary>
+    /// Evil emoticon patterns.
+    /// </summary>
+    public string Evil { get; set; } = @">:‑)
 >:)	}:‑)
 }:)	3:‑)
 3:)
 >;)	>:3
 >;3";
-    public string tongueInCheek = ":‑J";
-    public string partiedAllNight = "#‑)";
-    public string drunk = @"%‑)
+
+    /// <summary>
+    /// Tongue in cheek emoticon pattern.
+    /// </summary>
+    public string TongueInCheek { get; set; } = ":‑J";
+
+    /// <summary>
+    /// Partied all night emoticon pattern.
+    /// </summary>
+    public string PartiedAllNight { get; set; } = "#‑)";
+
+    /// <summary>
+    /// Drunk emoticon patterns.
+    /// </summary>
+    public string Drunk { get; set; } = @"%‑)
 %)";
-    public string beingSick = @":‑###..
+
+    /// <summary>
+    /// Being sick emoticon patterns.
+    /// </summary>
+    public string BeingSick { get; set; } = @":‑###..
 :###..";
-    public string dunceLike = @"<:‑|";
-    public string disbelief = "',:-|	',:-l";
+
+    /// <summary>
+    /// Dunce-like emoticon pattern.
+    /// </summary>
+    public string DunceLike { get; set; } = @"<:‑|";
+
+    /// <summary>
+    /// Disbelief emoticon patterns.
+    /// </summary>
+    public string Disbelief { get; set; } = "',:-|	',:-l";
 }

@@ -1,18 +1,21 @@
 namespace SunamoValues.All;
 
-// EN: Variable names have been checked and replaced with self-descriptive names
-// CZ: Názvy proměnných byly zkontrolovány a nahrazeny samopopisnými názvy
 /// <summary>
-/// Must be in shared due to HtmlTextWriterTag in System.Web
-/// All is lower
+/// Must be in shared due to HtmlTextWriterTag in System.Web.
+/// All values are lowercase.
 /// </summary>
 public class AllHtmlTags
 {
     /// <summary>
-    /// Sorted from longest to shortest due to comparing and finding right string
+    /// Sorted from longest to shortest due to comparing and finding right string.
     /// </summary>
-    public static List<string> list = null;
-    static List<string> withLeftArrow;
+    public static List<string>? All = null;
+
+    static List<string>? withLeftArrow;
+
+    /// <summary>
+    /// Gets list of tags prefixed with left angle bracket and trailing space.
+    /// </summary>
     public static List<string> WithLeftArrow
     {
         get
@@ -20,25 +23,28 @@ public class AllHtmlTags
             if (withLeftArrow == null)
             {
                 Initialize();
-                withLeftArrow = new List<string>(list.Count);
-                for (int i = 0; i < list.Count; i++)
+                withLeftArrow = new List<string>(All!.Count);
+                for (int i = 0; i < All.Count; i++)
                 {
-                    withLeftArrow.Add("<" + list[i] + " ");
+                    withLeftArrow.Add("<" + All[i] + " ");
                 }
             }
             return withLeftArrow;
         }
     }
+
+    /// <summary>
+    /// Initializes the list of HTML tags from the HtmlTextWriterTag enum.
+    /// </summary>
     public static void Initialize()
     {
-        if (list == null)
+        if (All == null)
         {
-            list = new List<string>();
+            All = new List<string>();
             foreach (var item in Enum.GetNames(typeof(HtmlTextWriterTag)))
             {
-                list.Add(item.ToLower());
+                All.Add(item.ToLower());
             }
-            //list.Sort(new SunamoComparerICompare.StringLength.Desc(SunamoComparer.StringLength.Instance));
         }
     }
 }

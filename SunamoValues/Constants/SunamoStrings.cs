@@ -1,24 +1,27 @@
 namespace SunamoValues.Constants;
 
-// EN: Variable names have been checked and replaced with self-descriptive names
-// CZ: Názvy proměnných byly zkontrolovány a nahrazeny samopopisnými názvy
 /// <summary>
-/// Here can be just constants, not methods
+/// Shared string constants and generators. Only constants and simple methods allowed here.
 /// </summary>
 public class SunamoStrings
 {
-    // TODO: Clean which are not necessary here
     static SunamoStrings()
     {
-        messageIfEmpty = MessageIfEmpty("data");
+        DefaultMessageIfEmpty = CreateMessageIfEmpty("data");
     }
+
     /// <summary>
-    /// Wasn't found any data to show
+    /// Default "data is empty" message.
     /// </summary>
-    public static string messageIfEmpty = null;
-    //public static string IsNotInRange = "is not in range";
-    public static string MessageIfEmpty(string p)
+    public static string? DefaultMessageIfEmpty = null;
+
+    /// <summary>
+    /// Creates an "is empty" message for the specified subject.
+    /// </summary>
+    /// <param name="text">The subject that is empty.</param>
+    /// <returns>A formatted empty message string.</returns>
+    public static string CreateMessageIfEmpty(string text)
     {
-        return p + " is empty!";
+        return text + " is empty!";
     }
 }

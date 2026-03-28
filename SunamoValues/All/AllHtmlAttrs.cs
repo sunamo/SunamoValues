@@ -1,21 +1,27 @@
 namespace SunamoValues.All;
 
-// EN: Variable names have been checked and replaced with self-descriptive names
-// CZ: Názvy proměnných byly zkontrolovány a nahrazeny samopopisnými názvy
+/// <summary>
+/// Contains all HTML attribute names derived from HtmlTextWriterAttribute enum.
+/// </summary>
 public class AllHtmlAttrs
 {
-    //
-    public static List<string> list = null;
+    /// <summary>
+    /// List of all HTML attribute names in lowercase.
+    /// </summary>
+    public static List<string>? All = null;
+
+    /// <summary>
+    /// Initializes the list of HTML attributes from the HtmlTextWriterAttribute enum.
+    /// </summary>
     public static void Initialize()
     {
-        if (list == null)
+        if (All == null)
         {
-            list = new List<string>();
+            All = new List<string>();
             foreach (var item in Enum.GetNames(typeof(HtmlTextWriterAttribute)))
             {
-                list.Add(item.ToLower());
+                All.Add(item.ToLower());
             }
-            //list.Sort(new SunamoComparerICompare.StringLength.Desc(SunamoComparer.StringLength.Instance));
         }
     }
 }

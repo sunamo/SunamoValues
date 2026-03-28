@@ -1,29 +1,64 @@
 namespace SunamoValues.Constants;
 
-// EN: Variable names have been checked and replaced with self-descriptive names
-// CZ: Názvy proměnných byly zkontrolovány a nahrazeny samopopisnými názvy
+/// <summary>
+/// Numeric constants.
+/// </summary>
 public class NumConsts
 {
     #region For easy copy
-    public const int mOne = -1;
-    #endregion
-    public const int defaultPortIfCannotBeParsed = 587;
     /// <summary>
-    /// Min age is 18 due to GDPR - below 18 is needed parent agreement of child
+    /// Constant value of minus one.
+    /// </summary>
+    public const int MOne = -1;
+    #endregion
+
+    /// <summary>
+    /// Default port number used when port cannot be parsed.
+    /// </summary>
+    public const int DefaultPortIfCannotBeParsed = 587;
+
+    /// <summary>
+    /// Min age is 18 due to GDPR - below 18 is needed parent agreement of child.
     /// </summary>
     public const int MinAge = 18;
-    public static short nDtMinVal = 10101;
-    public static short nDtMaxVal = 32271;
+
     /// <summary>
-    /// one thousand
+    /// Numeric DateTime min value as short.
     /// </summary>
-    public static int to = 1000;
-    public const long kB = 1024;
-    public const double zeroDouble = 0;
-    public const float zeroFloat = 0;
+    public static short NDtMinVal = 10101;
+
     /// <summary>
-    /// at int should be no postfix
+    /// Numeric DateTime max value as short.
     /// </summary>
-    public const int one = 1;
-    public const int zeroInt = 0;
+    public static short NDtMaxVal = 32271;
+
+    /// <summary>
+    /// One thousand.
+    /// </summary>
+    public static int OneThousand = 1000;
+
+    /// <summary>
+    /// One kilobyte in bytes.
+    /// </summary>
+    public const long KB = 1024;
+
+    /// <summary>
+    /// Zero as double.
+    /// </summary>
+    public const double ZeroDouble = 0;
+
+    /// <summary>
+    /// Zero as float.
+    /// </summary>
+    public const float ZeroFloat = 0;
+
+    /// <summary>
+    /// One as integer (no type postfix).
+    /// </summary>
+    public const int One = 1;
+
+    /// <summary>
+    /// Zero as integer.
+    /// </summary>
+    public const int ZeroInt = 0;
 }

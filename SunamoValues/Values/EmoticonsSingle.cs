@@ -1,11 +1,27 @@
 namespace SunamoValues.Values;
 
+/// <summary>
+/// Single emoticon constants (short and long forms).
+/// </summary>
 public class EmoticonsSingle
 {
-    public static Type type = typeof(EmoticonsSingle);
+    /// <summary>
+    /// Short happy emoticon.
+    /// </summary>
+    public const string HappyS = ":)";
 
-    public const string happyS = ":)";
-    public const string happyL = ":-)";
-    public const string sadS = ":(";
-    public const string sadL = ":-(";
+    /// <summary>
+    /// Long happy emoticon.
+    /// </summary>
+    public const string HappyL = ":-)";
+
+    /// <summary>
+    /// Short sad emoticon.
+    /// </summary>
+    public const string SadS = ":(";
+
+    /// <summary>
+    /// Long sad emoticon.
+    /// </summary>
+    public const string SadL = ":-(";
 }

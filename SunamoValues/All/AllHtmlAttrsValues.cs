@@ -1,9 +1,20 @@
 namespace SunamoValues.All;
 
+/// <summary>
+/// Contains all HTML attribute values derived from HtmlAttrValue constants.
+/// </summary>
 public class AllHtmlAttrsValues
 {
     static bool initialized = false;
-    public static List<string> list = new List<string>();
+
+    /// <summary>
+    /// List of all HTML attribute values.
+    /// </summary>
+    public static List<string> All = new List<string>();
+
+    /// <summary>
+    /// Initializes the list of HTML attribute values from HtmlAttrValue class constants.
+    /// </summary>
     public static void Init()
     {
         if (!initialized)
@@ -13,9 +24,8 @@ public class AllHtmlAttrsValues
             .Where(fi => fi.IsLiteral && !fi.IsInitOnly);
             foreach (var item in data)
             {
-                list.Add(item.GetValue(null).ToString());
+                All.Add(item.GetValue(null)?.ToString() ?? string.Empty);
             }
-            //list.Sort(new SunamoComparerICompare.StringLength.Desc(SunamoComparer.StringLength.Instance));
         }
     }
 }

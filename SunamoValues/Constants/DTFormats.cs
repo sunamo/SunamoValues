@@ -1,12 +1,20 @@
 namespace SunamoValues.Constants;
 
 /// <summary>
-/// see https://www.c-sharpcorner.com/blogs/date-and-time-format-in-c-sharp-programming1
+/// Date and time format strings.
+/// See https://www.c-sharpcorner.com/blogs/date-and-time-format-in-c-sharp-programming1
 /// </summary>
 public class DTFormats
 {
     #region Formats
-    public const string enShortDate = "m/d/yyy";
-    public const string enMyFormat = "d-M-yyy";
+    /// <summary>
+    /// English short date format (m/d/yyy).
+    /// </summary>
+    public const string EnShortDate = "m/d/yyy";
+
+    /// <summary>
+    /// Custom English date format (d-M-yyy).
+    /// </summary>
+    public const string EnMyFormat = "d-M-yyy";
     #endregion
 }

@@ -1,6 +1,12 @@
 namespace SunamoValues.Constants;
 
+/// <summary>
+/// Email address constants.
+/// </summary>
 public class Mails
 {
-    public const string smutekutek = "smutekutek@gmail.com";
+    /// <summary>
+    /// Default contact email address.
+    /// </summary>
+    public const string Smutekutek = "smutekutek@gmail.com";
 }

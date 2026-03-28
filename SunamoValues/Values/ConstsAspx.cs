@@ -1,10 +1,32 @@
 namespace SunamoValues.Values;
 
+/// <summary>
+/// ASP.NET and HTML comment marker constants.
+/// </summary>
 public class ConstsAspx
 {
-    public static readonly string startAspxComment = "<%--";
-    public static readonly string endAspxComment = "--%>";
-    public static readonly string startHtmlComment = "<!--";
-    public static readonly string endHtmlComment = "-->";
-    public static readonly List<string> all = new List<string>([startAspxComment, endAspxComment, startHtmlComment, endHtmlComment, ">", "<"]);
+    /// <summary>
+    /// ASPX comment start marker.
+    /// </summary>
+    public static readonly string StartAspxComment = "<%--";
+
+    /// <summary>
+    /// ASPX comment end marker.
+    /// </summary>
+    public static readonly string EndAspxComment = "--%>";
+
+    /// <summary>
+    /// HTML comment start marker.
+    /// </summary>
+    public static readonly string StartHtmlComment = "<!--";
+
+    /// <summary>
+    /// HTML comment end marker.
+    /// </summary>
+    public static readonly string EndHtmlComment = "-->";
+
+    /// <summary>
+    /// All comment markers and angle brackets.
+    /// </summary>
+    public static readonly List<string> All = new List<string>([StartAspxComment, EndAspxComment, StartHtmlComment, EndHtmlComment, ">", "<"]);
 }

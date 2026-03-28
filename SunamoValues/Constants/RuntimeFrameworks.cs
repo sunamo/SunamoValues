@@ -1,10 +1,22 @@
 namespace SunamoValues.Constants;
 
-// EN: Variable names have been checked and replaced with self-descriptive names
-// CZ: Názvy proměnných byly zkontrolovány a nahrazeny samopopisnými názvy
+/// <summary>
+/// Runtime framework name constants.
+/// </summary>
 public class RuntimeFrameworks
 {
-    public const string netCore = ".NET Core";
-    public const string netFramework = ".NET Framework";
-    public const string netNative = ".NET Native";
+    /// <summary>
+    /// .NET Core framework name.
+    /// </summary>
+    public const string NetCore = ".NET Core";
+
+    /// <summary>
+    /// .NET Framework name.
+    /// </summary>
+    public const string NetFramework = ".NET Framework";
+
+    /// <summary>
+    /// .NET Native framework name.
+    /// </summary>
+    public const string NetNative = ".NET Native";
 }

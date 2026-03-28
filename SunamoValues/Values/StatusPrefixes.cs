@@ -1,13 +1,37 @@
 namespace SunamoValues.Values;
 
-// EN: Variable names have been checked and replaced with self-descriptive names
-// CZ: Názvy proměnných byly zkontrolovány a nahrazeny samopopisnými názvy
+/// <summary>
+/// Status message prefix constants.
+/// </summary>
 public class StatusPrefixes
 {
-    public const string error = "error:";
-    public const string warning = "warning:";
-    public const string success = "success:";
-    public const string info = "info:";
-    public const string information = "information:";
-    public const string appeal = "appeal:";
+    /// <summary>
+    /// Error status prefix.
+    /// </summary>
+    public const string Error = "error:";
+
+    /// <summary>
+    /// Warning status prefix.
+    /// </summary>
+    public const string Warning = "warning:";
+
+    /// <summary>
+    /// Success status prefix.
+    /// </summary>
+    public const string Success = "success:";
+
+    /// <summary>
+    /// Info status prefix.
+    /// </summary>
+    public const string Info = "info:";
+
+    /// <summary>
+    /// Information status prefix.
+    /// </summary>
+    public const string Information = "information:";
+
+    /// <summary>
+    /// Appeal status prefix.
+    /// </summary>
+    public const string Appeal = "appeal:";
 }
