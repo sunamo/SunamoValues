@@ -1,8 +1,5 @@
 namespace SunamoValues._sunamo.SunamoEnums.Enums;
 
-/// <summary>
-/// Must be in sunamo, not System.Web.UI. HtmlTextWriterAttribute, because its not available in _UAp
-/// </summary>
 internal enum HtmlTextWriterAttribute
 {
     Accesskey = 0,

@@ -1,13 +1,7 @@
 namespace SunamoValues.Values;
 
-/// <summary>
-/// Partial class containing HTML entities dictionary initialization.
-/// </summary>
 public partial class AllLists
 {
-    /// <summary>
-    /// Initializes the HTML entities dictionary mapping entity names to characters.
-    /// </summary>
     public static void InitHtmlEntitiesDict()
     {
         if (HtmlEntitiesDict == null)
