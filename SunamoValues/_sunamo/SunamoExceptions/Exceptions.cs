@@ -1,8 +1,5 @@
 namespace SunamoValues._sunamo.SunamoExceptions;
 
-/// <summary>
-/// Shared exception handling utilities.
-/// </summary>
 internal sealed partial class Exceptions
 {
     #region Other
