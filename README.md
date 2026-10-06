@@ -1,5 +1,10 @@
 # SunamoValues
 
+## Short description
+
+Knihovna hodnot sdílených mezi mnoha balíčky, například seznamy HTML atributů a další konstanty. Součást sbírky pinp s testy a Runnerem.
+
+
 Values shared across many packages
 
 ## Overview
