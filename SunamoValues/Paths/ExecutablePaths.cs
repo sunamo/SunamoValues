@@ -1,2 +1,2 @@
 // variables names: ok
-// Tohle ne. Je to pro všechny, nemůžou tu být absolutní cesty
+// Not this. It is for everyone, there cannot be absolute paths here

@@ -1,3 +1,3 @@
 // variables names: ok
-// Toto už nejde. Je to pro všechny, nejen pro mně.
-//     // Commented, mělo by by to být e:\vs\Projects. e:\vs\ je tu 2x. mystyfikovalo to.
+// This no longer works. It is for everyone, not just for me.
+//     // Commented, it should be e:\vs\Projects. e:\vs\ is here twice. It was confusing.
