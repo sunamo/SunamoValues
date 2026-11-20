@@ -1,6 +1,5 @@
 namespace SunamoValues.Constants;
 
-// variables names: ok
 
 public class HttpErrors
 {
