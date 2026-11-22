@@ -1,14 +1,32 @@
 namespace SunamoValues.Values;
 
+/// <summary>
+/// Represents the sunamo not translate able type.
+/// </summary>
 public class SunamoNotTranslateAble
 {
+    /// <summary>
+    /// The from constant.
+    /// </summary>
     public const string From = " - From";
-    public const string SessI18n = "Translate.FromKey(";
-    public const string SessI18nShort = "Translate.FromKey(";
+    /// <summary>
+    /// The RL data en constant.
+    /// </summary>
     public const string RLDataEn = "RLData.en[";
+    /// <summary>
+    /// The RL data cs constant.
+    /// </summary>
     public const string RLDataCs = "RLData.cs[";
+    /// <summary>
+    /// The RL data en 2 constant.
+    /// </summary>
     public const string RLDataEn2 = "RLDataEn[";
-    public const string XlfKeysDot = "XlfKeys.";
+    /// <summary>
+    /// The on constant.
+    /// </summary>
     public const string On = "on";
+    /// <summary>
+    /// The orient constant.
+    /// </summary>
     public const string Orient = "Orient";
 }

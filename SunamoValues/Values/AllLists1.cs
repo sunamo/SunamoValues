@@ -2,6 +2,9 @@ namespace SunamoValues.Values;
 
 public partial class AllLists
 {
+    /// <summary>
+    /// Init html entities dict.
+    /// </summary>
     public static void InitHtmlEntitiesDict()
     {
         if (HtmlEntitiesDict == null)

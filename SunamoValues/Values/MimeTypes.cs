@@ -5,6 +5,11 @@ public static partial class MimeTypes
 {
     static Dictionary<string, string>? mappings = null;
 
+    /// <summary>
+    /// For extension.
+    /// </summary>
+    /// <param name="extension">The extension.</param>
+    /// <returns>The for extension result.</returns>
     public static string ForExtension(string extension)
     {
         if (mappings == null)

@@ -2597,7 +2597,7 @@ public static partial class MimeTypes
             {
                 "image/x-png",
                 ".png"
-            }, //See https://www.w3.org/TR/PNG/#A-Media-type :Translate.FromKey(XlfKeys.ItIsRecommendedThatImplementationsAlsoRecognizeTheMediaType)+" "image/x-png"."
+            }, // See https://www.w3.org/TR/PNG/#A-Media-type
             {
                 "image/tiff",
                 ".tiff"
