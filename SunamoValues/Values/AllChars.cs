@@ -91,4 +91,34 @@ public static class AllChars
     public const char dollar = '$';
     /// <summary>The circumflex character.</summary>
     public const char Hat = '^';
+
+    /// <summary>The lower case letters a to z.</summary>
+    public static readonly IReadOnlyList<char> lowerChars = new[]
+    {
+        'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm',
+        'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z'
+    };
+
+    /// <summary>The upper case letters A to Z.</summary>
+    public static readonly IReadOnlyList<char> upperChars = new[]
+    {
+        'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M',
+        'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'
+    };
+
+    /// <summary>The digits 1 to 9 and 0.</summary>
+    public static readonly IReadOnlyList<char> numericChars = new[] { '1', '2', '3', '4', '5', '6', '7', '8', '9', '0' };
+
+    /// <summary>The special characters commonly allowed in passwords.</summary>
+    public static readonly IReadOnlyList<char> specialChars = new[] { '!', '@', '#', '$', '%', '^', '&', '*', '?', '_', '~' };
+
+    /// <summary>The remaining special characters: quotes, dashes, brackets and punctuation.</summary>
+    public static readonly IReadOnlyList<char> specialChars2 = new[]
+    {
+        '\u201C', '\u201D', '-', '\u2018', '\u2019',
+        ',', '.', '\'', ')', '/', '<', '>', '{', '}', '[', '|', ';', '+', ']', '\u2013', '/'
+    };
+
+    /// <summary>All special characters: specialChars followed by specialChars2.</summary>
+    public static readonly IReadOnlyList<char> specialCharsAll = specialChars.Concat(specialChars2).ToArray();
 }
