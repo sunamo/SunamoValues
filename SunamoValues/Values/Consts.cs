@@ -14,6 +14,10 @@ public class Consts
     /// </summary>
     public const string http = "http://";
     /// <summary>
+    /// The doctype declaration of an HTML5 document.
+    /// </summary>
+    public const string HtmlDoctype = "<!DOCTYPE html>";
+    /// <summary>
     /// The cz constant.
     /// </summary>
     public const string Cz = "Cz";

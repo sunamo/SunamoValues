@@ -58,6 +58,14 @@ public static class AllStrings
     /// </summary>
     public const string apostrophe = "'";
     /// <summary>
+    /// The left (opening) curly double quote.
+    /// </summary>
+    public const string lq = "\u201C";
+    /// <summary>
+    /// The right (closing) curly double quote.
+    /// </summary>
+    public const string rq = "\u201D";
+    /// <summary>
     /// The us constant.
     /// </summary>
     public const string us = "_";
